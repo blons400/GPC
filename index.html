@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شركة هضبة الرمال المتجددة للخدمات النفطية | HADABATAL-RIMAL AL-MUTAJADIDA</title>
+  <meta name="description" content="شركة هضبة الرمال المتجددة للخدمات النفطية - شريككم الموثوق في الخدمات النفطية المتكاملة، الدعم اللوجستي، التوريدات، والصيانة الميدانية في ليبيا والمنطقة." />
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Cairo, Tajawal & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            petroleum: {
+              950: '#0A0F16',
+              900: '#121921',
+              800: '#182026',
+              700: '#232F39',
+              600: '#334452',
+            },
+            sandgold: {
+              300: '#E5C16C',
+              400: '#D4A347',
+              500: '#C89B3C',
+              600: '#A67522',
+              700: '#7D5514',
+            },
+            warmbg: '#F7F5F0',
+          },
+          fontFamily: {
+            arabic: ['Cairo', 'Tajawal', 'sans-serif'],
+            english: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          boxShadow: {
+            'luxury': '0 20px 50px -12px rgba(18, 25, 33, 0.14)',
+            'gold': '0 10px 30px -5px rgba(200, 155, 60, 0.35)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Cairo', 'Tajawal', sans-serif;
+      background-color: #FFFFFF;
+      color: #182026;
+      overflow-x: hidden;
+    }
+
+    html[dir="ltr"] body {
+      font-family: 'Plus Jakarta Sans', 'Cairo', sans-serif;
+    }
+
+    /* Subtle Industrial Grid Pattern */
+    .bg-oil-grid {
+      background-image: 
+        linear-gradient(to right, rgba(200, 155, 60, 0.07) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(200, 155, 60, 0.07) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+
+    /* Animated Pulse for Oil Rig Beacon */
+    @keyframes beaconPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(1.4); }
+    }
+    .beacon-dot {
+      animation: beaconPulse 2.4s infinite ease-in-out;
+      transform-origin: center;
+    }
+
+    /* Smooth Floating Animation */
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    .float-slow {
+      animation: floatSlow 5s ease-in-out infinite;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 9px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #121921;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C89B3C;
+      border-radius: 6px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #A67522;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-sandgold-500 selection:text-white">
+
+  <!-- ===================================================================== -->
+  <!-- TOP BAR (CORPORATE INFO & QUICK CONTACT)                              -->
+  <!-- ===================================================================== -->
+  <div class="bg-petroleum-950 text-slate-300 text-xs sm:text-sm border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-wrap items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-4 sm:gap-6">
+        <span class="flex items-center gap-2">
+          <i class="fa-solid fa-location-dot text-sandgold-400"></i>
+          <span data-i18n="topbar_location">طرابلس - ليبيا | المنطقة الصناعية / طريق المطار</span>
+        </span>
+        <span class="hidden md:flex items-center gap-2">
+          <i class="fa-solid fa-clock text-sandgold-400"></i>
+          <span data-i18n="topbar_hours">عمليات ميدانية ودعم طوارئ 24/7</span>
+        </span>
+      </div>
+      <div class="flex items-center gap-4 sm:gap-6">
+        <a href="mailto:info@hadabatalrimal.ly" class="hover:text-sandgold-400 transition flex items-center gap-1.5 font-english" dir="ltr">
+          <i class="fa-solid fa-envelope text-sandgold-400"></i>
+          <span>info@hadabatalrimal.ly</span>
+        </a>
+        <a href="tel:+218910000000" class="hover:text-sandgold-400 transition flex items-center gap-1.5 font-english" dir="ltr">
+          <i class="fa-solid fa-phone text-sandgold-400"></i>
+          <span>+218 21 000 0000</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- STICKY NAVIGATION HEADER WITH SHARP VECTOR SVG LOGO                   -->
+  <!-- ===================================================================== -->
+  <header id="mainHeader" class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 sm:h-24">
+        
+        <!-- Sharp Custom Vector SVG Logo (Light Theme Version) -->
+        <a href="#home" class="flex items-center group focus:outline-none py-1" aria-label="شركة هضبة الرمال المتجددة للخدمات النفطية">
+          <svg class="h-16 sm:h-20 w-auto transition-transform duration-300 group-hover:scale-[1.02]" viewBox="0 0 460 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <!-- Gold Swoosh & Desert Gradient -->
+              <linearGradient id="goldArcLight" x1="95" y1="20" x2="210" y2="95" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#E5C16C"/>
+                <stop offset="50%" stop-color="#C89B3C"/>
+                <stop offset="100%" stop-color="#9A6B1D"/>
+              </linearGradient>
+              <!-- Oil Drop Gloss Gradient -->
+              <linearGradient id="oilDropLight" x1="185" y1="18" x2="255" y2="85" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#2B3640"/>
+                <stop offset="45%" stop-color="#141A20"/>
+                <stop offset="100%" stop-color="#090C10"/>
+              </linearGradient>
+              <!-- Desert Plateau Gradient -->
+              <linearGradient id="mesaGoldLight" x1="185" y1="56" x2="255" y2="88" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#E8C56E"/>
+                <stop offset="55%" stop-color="#C89B3C"/>
+                <stop offset="100%" stop-color="#8C5E14"/>
+              </linearGradient>
+              <!-- Clip path for desert inside oil droplet -->
+              <clipPath id="dropClipLight">
+                <path d="M222 17C222 17 183 51 183 68C183 84.5 200.5 92 222 92C243.5 92 261 84.5 261 68C261 51 222 17 222 17Z"/>
+              </clipPath>
+            </defs>
+
+            <!-- Outer Golden Left Swoosh -->
+            <path d="M180 91C134 83 116 56 135 33C153 12 203 7 248 16C207 13 163 20 150 39C138 56 151 78 180 91Z" fill="url(#goldArcLight)"/>
+
+            <!-- Outer Charcoal Right Swoosh -->
+            <path d="M250 17C294 26 322 50 315 73C310 86 296 93 278 96C291 90 301 81 304 69C309 49 286 28 250 17Z" fill="#182026"/>
+
+            <!-- Central Glossy Oil Droplet -->
+            <path d="M222 17C222 17 183 51 183 68C183 84.5 200.5 92 222 92C243.5 92 261 84.5 261 68C261 51 222 17 222 17Z" fill="url(#oilDropLight)"/>
+
+            <!-- Glossy Specular Highlight on Oil Droplet -->
+            <path d="M214 29C203 39 192 52 190 62C189 65 193 65 195 61C198 51 206 39 216 31C218 29 216 27 214 29Z" fill="#FFFFFF" fill-opacity="0.85"/>
+
+            <!-- Desert Plateau / Mesa & Sand Dunes Inside Lower Oil Droplet -->
+            <g clip-path="url(#dropClipLight)">
+              <!-- Warm Sky/Sand Base -->
+              <path d="M180 65Q202 58 222 62Q242 66 265 62L265 95L180 95Z" fill="url(#mesaGoldLight)"/>
+              <!-- Flat-Topped Desert Mesa ("هضبة الرمال") -->
+              <path d="M196 68L205 56H236L247 68Z" fill="#DFB253"/>
+              <!-- Mesa Cliff Shadow Ridges -->
+              <path d="M205 56L201 68H209L211 56Z" fill="#9E6E1E" fill-opacity="0.65"/>
+              <path d="M224 56L227 68H235L231 56Z" fill="#9E6E1E" fill-opacity="0.55"/>
+              <path d="M236 56L247 68H239L234 56Z" fill="#7D5211" fill-opacity="0.75"/>
+              <!-- Flowing Sand Dune Curves -->
+              <path d="M182 77C198 71 214 75 230 81C244 86 254 83 263 79V94H182V77Z" fill="#B58128"/>
+              <path d="M182 84C202 80 220 86 242 84C251 83 258 81 263 80V94H182V84Z" fill="#F2D488" fill-opacity="0.65"/>
+            </g>
+
+            <!-- Oil Drilling Rig Derrick & Refinery Towers (Right Side) -->
+            <g fill="#182026" stroke="#182026" stroke-linecap="round" stroke-linejoin="round">
+              <!-- Derrick Crown & Mast -->
+              <rect x="268" y="30" width="8" height="3" stroke-width="0.8"/>
+              <path d="M269 33L265 88M275 33L279 88" stroke-width="1.8" fill="none"/>
+              <!-- Derrick X-Bracing -->
+              <path d="M268.5 42L275.5 49M275.5 42L268.5 49" stroke-width="1"/>
+              <path d="M267.8 52L276.2 60M276.2 52L267.8 60" stroke-width="1"/>
+              <path d="M267 63L277 72M277 63L267 72" stroke-width="1"/>
+              <path d="M266 75L278 85M278 75L266 85" stroke-width="1"/>
+              <!-- Derrick Substructure -->
+              <rect x="262" y="85" width="20" height="6" rx="1"/>
+              <!-- Industrial Processing Columns & Tanks -->
+              <rect x="285" y="58" width="5" height="33" rx="1"/>
+              <line x1="283" y1="65" x2="292" y2="65" stroke-width="1.2"/>
+              <line x1="283" y1="74" x2="292" y2="74" stroke-width="1.2"/>
+              <rect x="293" y="66" width="7" height="25" rx="1.5"/>
+              <path d="M296.5 66V54H290" fill="none" stroke-width="1.2"/>
+              <rect x="302" y="75" width="9" height="16" rx="2"/>
+            </g>
+
+            <!-- Sleek Curved Horizon Wave Base -->
+            <path d="M98 97C155 89 205 91 255 96C295 100 328 98 355 95C322 102 285 103 245 99C195 94 148 94 98 97Z" fill="#182026"/>
+            <path d="M165 98C215 93 265 95 335 97C285 101 230 101 165 98Z" fill="#C89B3C"/>
+
+            <!-- Company Name Arabic: شركة هضبة الرمال المتجددة -->
+            <text x="230" y="116" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="800" font-size="18.5" fill="#182026">
+              شركة <tspan fill="#C89B3C">هضبة</tspan> الرمال المتجددة
+            </text>
+
+            <!-- Subtitle Arabic with Flanking Lines: للخدمات النفطية -->
+            <line x1="95" y1="128" x2="178" y2="128" stroke="#182026" stroke-width="0.9" stroke-opacity="0.45"/>
+            <text x="230" y="131.5" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="700" font-size="11.5" fill="#182026">
+              للخدمات النفطية
+            </text>
+            <line x1="282" y1="128" x2="365" y2="128" stroke="#182026" stroke-width="0.9" stroke-opacity="0.45"/>
+
+            <!-- Company Name English: HADABATAL-RIMAL AL-MUTAJADIDA -->
+            <text x="230" y="143" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="9.5" letter-spacing="1.6" fill="#182026">
+              HADABATAL-RIMAL AL-MUTAJADIDA
+            </text>
+
+            <!-- English Subtitle with Flanking Lines: FOR OILFIELD SERVICES -->
+            <line x1="95" y1="150.5" x2="156" y2="150.5" stroke="#C89B3C" stroke-width="1"/>
+            <text x="230" y="153" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="7.2" letter-spacing="2.2" fill="#A67522">
+              FOR OILFIELD SERVICES
+            </text>
+            <line x1="304" y1="150.5" x2="365" y2="150.5" stroke="#C89B3C" stroke-width="1"/>
+          </svg>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7 font-bold text-[15px] text-petroleum-800">
+          <a href="#home" class="hover:text-sandgold-500 transition py-2 relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-sandgold-500 hover:after:w-full after:transition-all" data-i18n="nav_home">الرئيسية</a>
+          <a href="#about" class="hover:text-sandgold-500 transition py-2 relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-sandgold-500 hover:after:w-full after:transition-all" data-i18n="nav_about">من نحن</a>
+          <a href="#services" class="hover:text-sandgold-500 transition py-2 relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-sandgold-500 hover:after:w-full after:transition-all" data-i18n="nav_services">خدماتنا</a>
+          <a href="#hse" class="hover:text-sandgold-500 transition py-2 relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-sandgold-500 hover:after:w-full after:transition-all" data-i18n="nav_hse">السلامة والجودة</a>
+          <a href="#projects" class="hover:text-sandgold-500 transition py-2 relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-sandgold-500 hover:after:w-full after:transition-all" data-i18n="nav_projects">المشاريع</a>
+          <a href="#contact" class="hover:text-sandgold-500 transition py-2 relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-sandgold-500 hover:after:w-full after:transition-all" data-i18n="nav_contact">تواصل معنا</a>
+        </nav>
+
+        <!-- Actions: Language Switcher & Quote CTA -->
+        <div class="hidden sm:flex items-center gap-3">
+          <button id="langToggle" onclick="toggleLanguage()" class="px-3.5 py-2 rounded-xl border border-slate-300 text-petroleum-800 hover:border-sandgold-500 hover:text-sandgold-600 font-bold text-xs sm:text-sm transition flex items-center gap-2 cursor-pointer" title="Switch Language / تغيير اللغة">
+            <i class="fa-solid fa-globe text-sandgold-500"></i>
+            <span id="langLabel">English</span>
+          </button>
+
+          <a href="#contact" class="px-5 py-2.5 rounded-xl bg-gradient-to-l from-sandgold-500 to-sandgold-600 hover:from-sandgold-600 hover:to-sandgold-700 text-white font-bold text-sm shadow-gold transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+            <i class="fa-solid fa-file-signature"></i>
+            <span data-i18n="nav_cta">طلب عرض سعر / مناقصة</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex items-center gap-2 lg:hidden">
+          <button onclick="toggleLanguage()" class="sm:hidden px-2.5 py-2 rounded-lg border border-slate-300 text-xs font-bold text-petroleum-800">
+            <span id="langLabelMobile">EN</span>
+          </button>
+          <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-2.5 rounded-xl text-petroleum-800 hover:bg-slate-100 focus:outline-none" aria-label="القائمة">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-white border-t border-slate-200 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+      <a href="#home" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold text-petroleum-800 hover:bg-warmbg hover:text-sandgold-600" data-i18n="nav_home">الرئيسية</a>
+      <a href="#about" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold text-petroleum-800 hover:bg-warmbg hover:text-sandgold-600" data-i18n="nav_about">من نحن</a>
+      <a href="#services" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold text-petroleum-800 hover:bg-warmbg hover:text-sandgold-600" data-i18n="nav_services">خدماتنا</a>
+      <a href="#hse" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold text-petroleum-800 hover:bg-warmbg hover:text-sandgold-600" data-i18n="nav_hse">السلامة والجودة</a>
+      <a href="#projects" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold text-petroleum-800 hover:bg-warmbg hover:text-sandgold-600" data-i18n="nav_projects">المشاريع</a>
+      <a href="#contact" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold text-petroleum-800 hover:bg-warmbg hover:text-sandgold-600" data-i18n="nav_contact">تواصل معنا</a>
+      <div class="pt-2">
+        <a href="#contact" onclick="closeMobileMenu()" class="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-sandgold-500 text-white font-bold shadow-gold">
+          <i class="fa-solid fa-file-signature"></i>
+          <span data-i18n="nav_cta">طلب عرض سعر / مناقصة</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================== -->
+  <!-- 1. HERO SECTION                                                       -->
+  <!-- ===================================================================== -->
+  <section id="home" class="relative bg-petroleum-950 text-white overflow-hidden">
+    <!-- Architectural Oilfield Grid & Atmospheric Glows -->
+    <div class="absolute inset-0 bg-oil-grid opacity-80"></div>
+    <div class="absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-sandgold-500/15 blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 w-[460px] h-[460px] rounded-full bg-sky-900/20 blur-3xl pointer-events-none"></div>
+
+    <!-- Decorative Oil Derrick & Pipeline SVG Illustration on Background -->
+    <svg class="absolute bottom-0 left-0 w-full h-72 sm:h-96 opacity-20 pointer-events-none" viewBox="0 0 1440 360" fill="none" preserveAspectRatio="none">
+      <!-- Desert Horizon Dunes -->
+      <path d="M0 290C240 245 480 315 760 275C1040 235 1260 285 1440 265V360H0V290Z" fill="#C89B3C" fill-opacity="0.25"/>
+      <path d="M0 315C320 285 640 335 980 295C1180 272 1340 305 1440 298V360H0V315Z" fill="#182026"/>
+      <!-- Stylized Industrial Silhouette -->
+      <g stroke="#C89B3C" stroke-width="1.5" stroke-opacity="0.6">
+        <path d="M210 295L232 95H246L268 295"/>
+        <line x1="224" y1="145" x2="254" y2="145"/>
+        <line x1="220" y1="195" x2="258" y2="195"/>
+        <line x1="215" y1="245" x2="263" y2="245"/>
+        <path d="M232 95L254 145L220 195L263 245"/>
+        <path d="M246 95L224 145L258 195L215 245"/>
+        <!-- Flare Tower -->
+        <line x1="340" y1="295" x2="340" y2="140"/>
+        <circle cx="340" cy="132" r="6" fill="#E5C16C" class="beacon-dot"/>
+        <!-- Storage Tanks -->
+        <rect x="400" y="235" width="65" height="60" rx="4"/>
+        <rect x="480" y="245" width="55" height="50" rx="4"/>
+      </g>
+    </svg>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20 sm:pt-24 sm:pb-28">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Text Content -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 border border-sandgold-500/40 backdrop-blur-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-sandgold-400 animate-ping"></span>
+            <span class="text-xs sm:text-sm font-bold text-sandgold-300 tracking-wide" data-i18n="hero_badge">
+              الريادة في الخدمات النفطية والهندسية المتكاملة
+            </span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-[52px] font-black leading-tight text-white" data-i18n="hero_title">
+            شريككم الموثوق في <span class="text-transparent bg-clip-text bg-gradient-to-l from-sandgold-300 via-sandgold-400 to-sandgold-500">الخدمات النفطية المتكاملة</span> والحلول الهندسية
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl" data-i18n="hero_subtitle">
+            تقدم شركة هضبة الرمال المتجددة للخدمات النفطية حلولاً ميدانية ولوجستية وهندسية عالية الكفاءة لدعم عمليات استكشاف وإنتاج النفط والغاز في الحقول الليبية والإقليمية، وفق أعلى معايير السلامة والجودة العالمية.
+          </p>
+
+          <!-- Dual CTAs -->
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#services" class="px-7 py-4 rounded-xl bg-gradient-to-l from-sandgold-500 to-sandgold-600 hover:from-sandgold-400 hover:to-sandgold-600 text-white font-extrabold text-base shadow-gold transition-all transform hover:-translate-y-0.5 flex items-center gap-3">
+              <span data-i18n="hero_cta_primary">استكشف خدماتنا</span>
+              <i class="fa-solid fa-arrow-left rtl:rotate-0 ltr:rotate-180"></i>
+            </a>
+            <a href="#contact" class="px-7 py-4 rounded-xl bg-white/10 hover:bg-white/15 border border-white/25 text-white font-bold text-base backdrop-blur-sm transition-all flex items-center gap-3">
+              <i class="fa-solid fa-headset text-sandgold-400"></i>
+              <span data-i18n="hero_cta_secondary">تواصل مع فريقنا</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-4 flex flex-wrap items-center gap-6 text-xs sm:text-sm text-slate-400">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-shield-halved text-sandgold-400 text-base"></i>
+              <span data-i18n="hero_trust_1">معتمدون وفق معايير ISO & HSE</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-truck-fast text-sandgold-400 text-base"></i>
+              <span data-i18n="hero_trust_2">أسطول ميداني ومعدات ثقيلة جاهزة</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Visual: Executive Field Command & Emblem Showcase Card -->
+        <div class="lg:col-span-5">
+          <div class="relative rounded-3xl bg-gradient-to-b from-petroleum-800/90 to-petroleum-950/95 border border-sandgold-500/30 p-6 sm:p-8 shadow-2xl backdrop-blur-md float-slow">
+            <!-- Top Status Bar -->
+            <div class="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
+              <div class="flex items-center gap-2.5">
+                <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
+                <span class="text-xs font-bold text-slate-300 uppercase tracking-wider" data-i18n="hero_card_status">العمليات الحقلية نشطة</span>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-sandgold-500/20 text-sandgold-300 text-xs font-bold font-english">LIBYA • MENA</span>
+            </div>
+
+            <!-- Vector Emblem Visual Centerpiece -->
+            <div class="bg-petroleum-950/80 rounded-2xl p-6 border border-white/10 flex flex-col items-center text-center mb-6">
+              <svg class="w-56 h-auto mb-2" viewBox="0 0 360 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="heroGoldArc" x1="65" y1="15" x2="180" y2="90" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#F2D488"/>
+                    <stop offset="50%" stop-color="#C89B3C"/>
+                    <stop offset="100%" stop-color="#9A6B1D"/>
+                  </linearGradient>
+                  <linearGradient id="heroOilDrop" x1="150" y1="12" x2="215" y2="85" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#384654"/>
+                    <stop offset="50%" stop-color="#141A20"/>
+                    <stop offset="100%" stop-color="#070A0D"/>
+                  </linearGradient>
+                  <clipPath id="heroDropClip">
+                    <path d="M180 12C180 12 138 48 138 66C138 83.5 156.5 92 180 92C203.5 92 222 83.5 222 66C222 48 180 12 180 12Z"/>
+                  </clipPath>
+                </defs>
+                <!-- Left Golden Arc -->
+                <path d="M135 91C86 82 67 54 88 29C107 7 160 2 208 11C165 8 118 16 104 36C91 54 105 77 135 91Z" fill="url(#heroGoldArc)"/>
+                <!-- Right Light-Silver/White Arc for Dark Background -->
+                <path d="M210 12C257 22 287 47 279 71C274 85 259 93 240 96C254 90 264 80 268 67C273 46 248 24 210 12Z" fill="#E2E8F0"/>
+                <!-- Oil Drop -->
+                <path d="M180 12C180 12 138 48 138 66C138 83.5 156.5 92 180 92C203.5 92 222 83.5 222 66C222 48 180 12 180 12Z" fill="url(#heroOilDrop)" stroke="#C89B3C" stroke-width="0.7"/>
+                <!-- Specular Gloss -->
+                <path d="M171 25C159 36 148 49 146 60C145 63 149 63 151 59C154 48 163 36 173 27C175 25 173 23 171 25Z" fill="#FFFFFF" fill-opacity="0.9"/>
+                <!-- Desert Mesa Inside Drop -->
+                <g clip-path="url(#heroDropClip)">
+                  <path d="M135 63Q158 55 180 60Q202 65 225 60L225 95L135 95Z" fill="#D4A347"/>
+                  <path d="M152 67L162 53H195L207 67Z" fill="#E8C56E"/>
+                  <path d="M162 53L158 67H166L168 53Z" fill="#9E6E1E" fill-opacity="0.7"/>
+                  <path d="M195 53L207 67H198L193 53Z" fill="#7D5211" fill-opacity="0.8"/>
+                  <path d="M136 77C154 70 172 75 189 81C204 86 215 83 224 79V95H136V77Z" fill="#B58128"/>
+                  <path d="M136 85C158 80 178 87 201 84C211 83 218 81 224 80V95H136V85Z" fill="#F2D488" fill-opacity="0.75"/>
+                </g>
+                <!-- Drilling Rig Derrick (Light Metallic on Dark BG) -->
+                <g fill="#E2E8F0" stroke="#E2E8F0" stroke-linecap="round">
+                  <rect x="230" y="26" width="9" height="3.5"/>
+                  <path d="M231 29.5L226.5 88M238 29.5L242.5 88" stroke-width="1.8" fill="none"/>
+                  <path d="M230.5 39L238.5 47M238.5 39L230.5 47" stroke-width="1.1"/>
+                  <path d="M229.5 50L239.5 59M239.5 50L229.5 59" stroke-width="1.1"/>
+                  <path d="M228.5 62L240.5 72M240.5 62L228.5 72" stroke-width="1.1"/>
+                  <path d="M227.5 75L241.5 85M241.5 75L227.5 85" stroke-width="1.1"/>
+                  <rect x="223" y="85" width="23" height="6" rx="1"/>
+                  <rect x="249" y="56" width="5.5" height="35" rx="1"/>
+                  <rect x="258" y="65" width="8" height="26" rx="1.5"/>
+                  <rect x="269" y="74" width="10" height="17" rx="2"/>
+                </g>
+                <!-- Horizon Wave -->
+                <path d="M50 98C110 89 165 91 218 97C260 101 295 99 322 96C288 103 248 104 206 100C152 95 102 95 50 98Z" fill="#E2E8F0"/>
+                <path d="M118 99C172 94 226 96 298 98C246 102 188 102 118 99Z" fill="#C89B3C"/>
+              </svg>
+              <h3 class="text-lg font-extrabold text-white">شركة <span class="text-sandgold-400">هضبة</span> الرمال المتجددة</h3>
+              <p class="text-xs text-slate-400 font-english tracking-widest mt-1">HADABATAL-RIMAL AL-MUTAJADIDA</p>
+            </div>
+
+            <!-- Operational Highlights Mini-Grid -->
+            <div class="grid grid-cols-2 gap-3 text-xs sm:text-sm">
+              <div class="p-3.5 rounded-xl bg-white/5 border border-white/10">
+                <div class="text-sandgold-400 font-bold mb-1 flex items-center gap-1.5">
+                  <i class="fa-solid fa-oil-well"></i>
+                  <span data-i18n="hero_mini_1_t">دعم الحقول</span>
+                </div>
+                <p class="text-slate-300 text-xs" data-i18n="hero_mini_1_d">تغطية شاملة لحوض سرت، مرزق، وغدامس</p>
+              </div>
+              <div class="p-3.5 rounded-xl bg-white/5 border border-white/10">
+                <div class="text-sandgold-400 font-bold mb-1 flex items-center gap-1.5">
+                  <i class="fa-solid fa-certificate"></i>
+                  <span data-i18n="hero_mini_2_t">جودة معتمدة</span>
+                </div>
+                <p class="text-slate-300 text-xs" data-i18n="hero_mini_2_d">توريدات ومعدات مطابقة لمواصفات API</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- KPI Counters Strip -->
+      <div class="mt-14 sm:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div class="p-6 rounded-2xl bg-white/[0.06] border border-white/10 backdrop-blur-sm hover:border-sandgold-500/50 transition">
+          <div class="text-3xl sm:text-4xl font-black text-sandgold-400 font-english" dir="ltr">+15</div>
+          <div class="text-sm sm:text-base font-bold text-white mt-1" data-i18n="kpi_1_title">عاماً من الخبرة</div>
+          <div class="text-xs text-slate-400 mt-0.5" data-i18n="kpi_1_sub">في قطاع النفط والغاز والطاقة</div>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/[0.06] border border-white/10 backdrop-blur-sm hover:border-sandgold-500/50 transition">
+          <div class="text-3xl sm:text-4xl font-black text-sandgold-400 font-english" dir="ltr">99.8%</div>
+          <div class="text-sm sm:text-base font-bold text-white mt-1" data-i18n="kpi_2_title">معايير السلامة HSE</div>
+          <div class="text-xs text-slate-400 mt-0.5" data-i18n="kpi_2_sub">التزام صارم بسجل خالٍ من الحوادث</div>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/[0.06] border border-white/10 backdrop-blur-sm hover:border-sandgold-500/50 transition">
+          <div class="text-3xl sm:text-4xl font-black text-sandgold-400 font-english" dir="ltr">+120</div>
+          <div class="text-sm sm:text-base font-bold text-white mt-1" data-i18n="kpi_3_title">مشروع وعقد ميداني</div>
+          <div class="text-xs text-slate-400 mt-0.5" data-i18n="kpi_3_sub">منفذ بنجاح لكبرى الشركات النفطية</div>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/[0.06] border border-white/10 backdrop-blur-sm hover:border-sandgold-500/50 transition">
+          <div class="text-3xl sm:text-4xl font-black text-sandgold-400 font-english" dir="ltr">24/7</div>
+          <div class="text-sm sm:text-base font-bold text-white mt-1" data-i18n="kpi_4_title">استجابة ودعم ميداني</div>
+          <div class="text-xs text-slate-400 mt-0.5" data-i18n="kpi_4_sub">فرق فنية ولوجستية على مدار الساعة</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- 2. ABOUT US & BRAND IDENTITY SHOWCASE                                 -->
+  <!-- ===================================================================== -->
+  <section id="about" class="py-20 sm:py-28 bg-warmbg relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left/Start Column: Clarified HD Brand Emblem Card -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-luxury border border-slate-200/80 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-sandgold-500/10 rounded-bl-full"></div>
+            
+            <div class="flex items-center justify-between mb-6">
+              <span class="px-3.5 py-1.5 rounded-full bg-warmbg text-sandgold-700 font-bold text-xs border border-sandgold-500/30" data-i18n="about_brand_badge">
+                الهوية المؤسسية المعتمدة
+              </span>
+              <span class="text-xs font-bold text-slate-400 font-english">EST. LIBYA</span>
+            </div>
+
+            <!-- High-Resolution Vector Logo Showcase -->
+            <div class="py-6 px-4 rounded-2xl bg-gradient-to-b from-slate-50 to-white border border-slate-100 flex flex-col items-center justify-center">
+              <svg class="w-full max-w-[360px] h-auto" viewBox="0 0 460 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="aboutGoldArc" x1="95" y1="20" x2="210" y2="95" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#E5C16C"/>
+                    <stop offset="50%" stop-color="#C89B3C"/>
+                    <stop offset="100%" stop-color="#9A6B1D"/>
+                  </linearGradient>
+                  <linearGradient id="aboutOilDrop" x1="185" y1="18" x2="255" y2="85" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#2B3640"/>
+                    <stop offset="45%" stop-color="#141A20"/>
+                    <stop offset="100%" stop-color="#090C10"/>
+                  </linearGradient>
+                  <linearGradient id="aboutMesaGold" x1="185" y1="56" x2="255" y2="88" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#E8C56E"/>
+                    <stop offset="55%" stop-color="#C89B3C"/>
+                    <stop offset="100%" stop-color="#8C5E14"/>
+                  </linearGradient>
+                  <clipPath id="aboutDropClip">
+                    <path d="M222 17C222 17 183 51 183 68C183 84.5 200.5 92 222 92C243.5 92 261 84.5 261 68C261 51 222 17 222 17Z"/>
+                  </clipPath>
+                </defs>
+                <!-- Left Golden Arc -->
+                <path d="M180 91C134 83 116 56 135 33C153 12 203 7 248 16C207 13 163 20 150 39C138 56 151 78 180 91Z" fill="url(#aboutGoldArc)"/>
+                <!-- Right Charcoal Arc -->
+                <path d="M250 17C294 26 322 50 315 73C310 86 296 93 278 96C291 90 301 81 304 69C309 49 286 28 250 17Z" fill="#182026"/>
+                <!-- Glossy Oil Drop -->
+                <path d="M222 17C222 17 183 51 183 68C183 84.5 200.5 92 222 92C243.5 92 261 84.5 261 68C261 51 222 17 222 17Z" fill="url(#aboutOilDrop)"/>
+                <!-- Specular Highlight -->
+                <path d="M214 29C203 39 192 52 190 62C189 65 193 65 195 61C198 51 206 39 216 31C218 29 216 27 214 29Z" fill="#FFFFFF" fill-opacity="0.88"/>
+                <!-- Desert Plateau Inside Drop -->
+                <g clip-path="url(#aboutDropClip)">
+                  <path d="M180 65Q202 58 222 62Q242 66 265 62L265 95L180 95Z" fill="url(#aboutMesaGold)"/>
+                  <path d="M196 68L205 56H236L247 68Z" fill="#DFB253"/>
+                  <path d="M205 56L201 68H209L211 56Z" fill="#9E6E1E" fill-opacity="0.65"/>
+                  <path d="M224 56L227 68H235L231 56Z" fill="#9E6E1E" fill-opacity="0.55"/>
+                  <path d="M236 56L247 68H239L234 56Z" fill="#7D5211" fill-opacity="0.75"/>
+                  <path d="M182 77C198 71 214 75 230 81C244 86 254 83 263 79V94H182V77Z" fill="#B58128"/>
+                  <path d="M182 84C202 80 220 86 242 84C251 83 258 81 263 80V94H182V84Z" fill="#F2D488" fill-opacity="0.65"/>
+                </g>
+                <!-- Drilling Rig Derrick & Refinery -->
+                <g fill="#182026" stroke="#182026" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="268" y="30" width="8" height="3" stroke-width="0.8"/>
+                  <path d="M269 33L265 88M275 33L279 88" stroke-width="1.8" fill="none"/>
+                  <path d="M268.5 42L275.5 49M275.5 42L268.5 49" stroke-width="1"/>
+                  <path d="M267.8 52L276.2 60M276.2 52L267.8 60" stroke-width="1"/>
+                  <path d="M267 63L277 72M277 63L267 72" stroke-width="1"/>
+                  <path d="M266 75L278 85M278 75L266 85" stroke-width="1"/>
+                  <rect x="262" y="85" width="20" height="6" rx="1"/>
+                  <rect x="285" y="58" width="5" height="33" rx="1"/>
+                  <line x1="283" y1="65" x2="292" y2="65" stroke-width="1.2"/>
+                  <line x1="283" y1="74" x2="292" y2="74" stroke-width="1.2"/>
+                  <rect x="293" y="66" width="7" height="25" rx="1.5"/>
+                  <path d="M296.5 66V54H290" fill="none" stroke-width="1.2"/>
+                  <rect x="302" y="75" width="9" height="16" rx="2"/>
+                </g>
+                <!-- Horizon Wave -->
+                <path d="M98 97C155 89 205 91 255 96C295 100 328 98 355 95C322 102 285 103 245 99C195 94 148 94 98 97Z" fill="#182026"/>
+                <path d="M165 98C215 93 265 95 335 97C285 101 230 101 165 98Z" fill="#C89B3C"/>
+                <!-- Typography -->
+                <text x="230" y="118" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="800" font-size="19" fill="#182026">
+                  شركة <tspan fill="#C89B3C">هضبة</tspan> الرمال المتجددة
+                </text>
+                <line x1="90" y1="131" x2="176" y2="131" stroke="#182026" stroke-width="0.9" stroke-opacity="0.45"/>
+                <text x="230" y="134.5" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="700" font-size="12" fill="#182026">
+                  للخدمات النفطية
+                </text>
+                <line x1="284" y1="131" x2="370" y2="131" stroke="#182026" stroke-width="0.9" stroke-opacity="0.45"/>
+                <text x="230" y="147" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="10" letter-spacing="1.6" fill="#182026">
+                  HADABATAL-RIMAL AL-MUTAJADIDA
+                </text>
+                <line x1="90" y1="155" x2="154" y2="155" stroke="#C89B3C" stroke-width="1"/>
+                <text x="230" y="157.5" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="7.5" letter-spacing="2.3" fill="#A67522">
+                  FOR OILFIELD SERVICES
+                </text>
+                <line x1="306" y1="155" x2="370" y2="155" stroke="#C89B3C" stroke-width="1"/>
+              </svg>
+            </div>
+
+            <!-- Symbolism Explanation -->
+            <div class="mt-6 space-y-3 text-xs sm:text-sm text-slate-600 border-t border-slate-100 pt-5">
+              <div class="flex items-start gap-3">
+                <span class="w-6 h-6 rounded-lg bg-sandgold-500/15 text-sandgold-600 flex items-center justify-center shrink-0 mt-0.5">
+                  <i class="fa-solid fa-droplet"></i>
+                </span>
+                <p data-i18n="about_symbol_1"><strong>قطرة النفط والهضبة الذهبية:</strong> تجسد التناغم بين ثروات الطاقة في باطن الأرض وطبيعة الصحراء الليبية الغنية بالموارد.</p>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="w-6 h-6 rounded-lg bg-petroleum-800/10 text-petroleum-800 flex items-center justify-center shrink-0 mt-0.5">
+                  <i class="fa-solid fa-tower-observation"></i>
+                </span>
+                <p data-i18n="about_symbol_2"><strong>برج الحفر والمسار الدائري:</strong> يرمز إلى الاستمرارية، الدقة الهندسية، والتطور المتجدد في خدمات الحقول النفطية.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right/End Column: Corporate Story, Vision, Mission, Values -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 text-sandgold-600 font-extrabold text-sm">
+            <span class="w-8 h-0.5 bg-sandgold-500"></span>
+            <span data-i18n="about_kicker">من نحن</span>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-black text-petroleum-900 leading-snug" data-i18n="about_heading">
+            خبرة ميدانية راسخة تدعم استدامة الإنتاج في قطاع النفط والغاز
+          </h2>
+
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed" data-i18n="about_desc">
+            تأسست <strong>شركة هضبة الرمال المتجددة للخدمات النفطية</strong> لتكون ركيزة أساسية في تقديم الخدمات المساندة والحلول الهندسية واللوجستية لشركات النفط الوطنية والعالمية. نجمع بين الكفاءات الوطنية المؤهلة والتقنيات الحديثة لتنفيذ المشاريع في أصعب الظروف الصحراوية والميدانية بكفاءة وموثوقية عالية.
+          </p>
+
+          <!-- Vision, Mission, Values Cards -->
+          <div class="grid sm:grid-cols-3 gap-4 pt-2">
+            <!-- Vision -->
+            <div class="p-5 rounded-2xl bg-white border border-slate-200/90 shadow-sm hover:shadow-md hover:border-sandgold-400 transition">
+              <div class="w-11 h-11 rounded-xl bg-petroleum-900 text-sandgold-400 flex items-center justify-center text-lg mb-4">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <h3 class="font-extrabold text-lg text-petroleum-900 mb-2" data-i18n="vision_title">رؤيتنا</h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="vision_desc">
+                أن نكون الخيار الأول والشريك الاستراتيجي الأكثر موثوقية في تقديم الخدمات النفطية المتكاملة في ليبيا وشمال أفريقيا.
+              </p>
+            </div>
+
+            <!-- Mission -->
+            <div class="p-5 rounded-2xl bg-white border border-slate-200/90 shadow-sm hover:shadow-md hover:border-sandgold-400 transition">
+              <div class="w-11 h-11 rounded-xl bg-sandgold-500 text-white flex items-center justify-center text-lg mb-4">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+              <h3 class="font-extrabold text-lg text-petroleum-900 mb-2" data-i18n="mission_title">رسالتنا</h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="mission_desc">
+                توفير خدمات هندسية وتوريدات لوجستية بمعايير جودة عالمية تعزز كفاءة العمليات الإنتاجية وتحافظ على سلامة الأفراد والبيئة.
+              </p>
+            </div>
+
+            <!-- Values -->
+            <div class="p-5 rounded-2xl bg-white border border-slate-200/90 shadow-sm hover:shadow-md hover:border-sandgold-400 transition">
+              <div class="w-11 h-11 rounded-xl bg-petroleum-900 text-sandgold-400 flex items-center justify-center text-lg mb-4">
+                <i class="fa-solid fa-gem"></i>
+              </div>
+              <h3 class="font-extrabold text-lg text-petroleum-900 mb-2" data-i18n="values_title">قيمنا الجوهرية</h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-i18n="values_desc">
+                السلامة أولاً، النزاهة والشفافية، الالتزام بالمواعيد، الابتكار المستمر، والتميز في التنفيذ الميداني.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- 3. CORE OILFIELD SERVICES (FILTERABLE GRID + DETAILS MODAL)           -->
+  <!-- ===================================================================== -->
+  <section id="services" class="py-20 sm:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 text-sandgold-600 font-extrabold text-sm mb-3">
+          <span class="w-6 h-0.5 bg-sandgold-500"></span>
+          <span data-i18n="services_kicker">مجالات التخصص</span>
+          <span class="w-6 h-0.5 bg-sandgold-500"></span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-petroleum-900 mb-4" data-i18n="services_heading">
+          خدماتنا النفطية والهندسية المتكاملة
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg" data-i18n="services_subtitle">
+          نقدم باقة متكاملة من الحلول الميدانية واللوجستية المصممة لتلبية متطلبات شركات الاستكشاف والإنتاج والتكرير بأعلى درجات الاعتمادية.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="flex flex-wrap items-center justify-center gap-2.5 mb-12">
+        <button onclick="filterServices('all')" data-filter="all" class="service-filter-btn active px-5 py-2.5 rounded-xl font-bold text-sm bg-petroleum-900 text-white shadow-sm transition cursor-pointer" data-i18n="filter_all">
+          جميع الخدمات (6)
+        </button>
+        <button onclick="filterServices('field')" data-filter="field" class="service-filter-btn px-5 py-2.5 rounded-xl font-bold text-sm bg-slate-100 text-petroleum-800 hover:bg-slate-200 transition cursor-pointer" data-i18n="filter_field">
+          العمليات والحفر والصيانة
+        </button>
+        <button onclick="filterServices('supply')" data-filter="supply" class="service-filter-btn px-5 py-2.5 rounded-xl font-bold text-sm bg-slate-100 text-petroleum-800 hover:bg-slate-200 transition cursor-pointer" data-i18n="filter_supply">
+          التوريدات والنقل الثقيل
+        </button>
+        <button onclick="filterServices('infra')" data-filter="infra" class="service-filter-btn px-5 py-2.5 rounded-xl font-bold text-sm bg-slate-100 text-petroleum-800 hover:bg-slate-200 transition cursor-pointer" data-i18n="filter_infra">
+          الإنشاءات والبيئة
+        </button>
+      </div>
+
+      <!-- 6 Services Grid -->
+      <div id="servicesGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <!-- Rendered dynamically by JS for seamless AR/EN & modal support -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- 4. HSE & QUALITY STANDARDS (ISO CERTIFICATIONS & SAFETY PROTOCOLS)    -->
+  <!-- ===================================================================== -->
+  <section id="hse" class="py-20 sm:py-28 bg-petroleum-900 text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-oil-grid opacity-50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 text-sandgold-400 font-extrabold text-sm">
+            <span class="w-8 h-0.5 bg-sandgold-400"></span>
+            <span data-i18n="hse_kicker">الصحة والسلامة والبيئة والجودة</span>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-black leading-snug" data-i18n="hse_heading">
+            التزام مطلق بمعايير السلامة العالمية ورؤية <span class="text-sandgold-400">"صفر حوادث"</span>
+          </h2>
+
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed" data-i18n="hse_desc">
+            في شركة هضبة الرمال المتجددة، نضع سلامة كوادرنا البشرية، حماية المنشآت النفطية، والحفاظ على البيئة الصحراوية على رأس أولوياتنا التشغيلية. تخضع جميع عملياتنا لأنظمة إدارة جودة وسلامة معتمدة دولياً.
+          </p>
+
+          <!-- Safety Checklist -->
+          <div class="space-y-4 pt-2">
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+              <div class="w-10 h-10 rounded-xl bg-sandgold-500/20 text-sandgold-400 flex items-center justify-center shrink-0 mt-0.5">
+                <i class="fa-solid fa-helmet-safety text-lg"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-base" data-i18n="hse_p1_t">تقييم المخاطر الميداني المستمر (JSA & PTW)</h4>
+                <p class="text-xs sm:text-sm text-slate-400 mt-1" data-i18n="hse_p1_d">تطبيق صارم لأنظمة تصاريح العمل وتحليل مخاطر المهام قبل بدء أي نشاط حقلي.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+              <div class="w-10 h-10 rounded-xl bg-sandgold-500/20 text-sandgold-400 flex items-center justify-center shrink-0 mt-0.5">
+                <i class="fa-solid fa-leaf text-lg"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-base" data-i18n="hse_p2_t">الاستدامة وحماية البيئة الصحراوية</h4>
+                <p class="text-xs sm:text-sm text-slate-400 mt-1" data-i18n="hse_p2_d">إدارة مسؤولة للمخلفات النفطية ومنع التسربات وفق التشريعات البيئية الوطنية والدولية.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ISO Certifications Cards -->
+        <div class="lg:col-span-6 grid sm:grid-cols-2 gap-5">
+          <!-- ISO 9001 -->
+          <div class="p-6 rounded-3xl bg-petroleum-950/90 border border-sandgold-500/30 hover:border-sandgold-400 transition group">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-lg bg-sandgold-500/20 text-sandgold-300 font-extrabold text-sm font-english">ISO 9001:2015</span>
+              <i class="fa-solid fa-award text-2xl text-sandgold-400 group-hover:scale-110 transition"></i>
+            </div>
+            <h3 class="text-lg font-extrabold text-white mb-2" data-i18n="iso1_t">نظام إدارة الجودة</h3>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed" data-i18n="iso1_d">
+              ضمان أعلى مستويات الدقة والكفاءة في التوريدات، الصيانة، وإدارة المشاريع الهندسية النفطية.
+            </p>
+          </div>
+
+          <!-- ISO 45001 -->
+          <div class="p-6 rounded-3xl bg-petroleum-950/90 border border-sandgold-500/30 hover:border-sandgold-400 transition group">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-lg bg-sandgold-500/20 text-sandgold-300 font-extrabold text-sm font-english">ISO 45001:2018</span>
+              <i class="fa-solid fa-shield-heart text-2xl text-sandgold-400 group-hover:scale-110 transition"></i>
+            </div>
+            <h3 class="text-lg font-extrabold text-white mb-2" data-i18n="iso2_t">الصحة والسلامة المهنية</h3>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed" data-i18n="iso2_d">
+              توفير بيئة عمل آمنة وصحية لجميع المهندسين والفنيين في مواقع الحفر والمنشآت الصناعية.
+            </p>
+          </div>
+
+          <!-- ISO 14001 -->
+          <div class="p-6 rounded-3xl bg-petroleum-950/90 border border-sandgold-500/30 hover:border-sandgold-400 transition group">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-lg bg-sandgold-500/20 text-sandgold-300 font-extrabold text-sm font-english">ISO 14001:2015</span>
+              <i class="fa-solid fa-earth-africa text-2xl text-sandgold-400 group-hover:scale-110 transition"></i>
+            </div>
+            <h3 class="text-lg font-extrabold text-white mb-2" data-i18n="iso3_t">نظام الإدارة البيئية</h3>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed" data-i18n="iso3_d">
+              الحد من الأثر البيئي للعمليات الحقلية وتطبيق تقنيات المعالجة الآمنة للنفايات الصناعية.
+            </p>
+          </div>
+
+          <!-- API & ASME Standards -->
+          <div class="p-6 rounded-3xl bg-gradient-to-br from-sandgold-600 to-sandgold-700 text-white shadow-gold">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-lg bg-black/25 text-white font-extrabold text-sm font-english">API / ASME</span>
+              <i class="fa-solid fa-check-double text-2xl text-white"></i>
+            </div>
+            <h3 class="text-lg font-extrabold mb-2" data-i18n="iso4_t">مطابقة المواصفات النفطية</h3>
+            <p class="text-xs sm:text-sm text-white/90 leading-relaxed" data-i18n="iso4_d">
+              جميع المعدات والصمامات والأنابيب الموردة معتمدة بشهادات منشأ وفحص فني من كبرى الشركات العالمية.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- 5. FEATURED FIELD PROJECTS & SECTORS                                  -->
+  <!-- ===================================================================== -->
+  <section id="projects" class="py-20 sm:py-28 bg-warmbg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <div class="inline-flex items-center gap-2 text-sandgold-600 font-extrabold text-sm mb-3">
+            <span class="w-8 h-0.5 bg-sandgold-500"></span>
+            <span data-i18n="proj_kicker">سجل الإنجازات الميدانية</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-black text-petroleum-900" data-i18n="proj_heading">
+            مشاريعنا في الحقول والمنشآت النفطية
+          </h2>
+        </div>
+        <a href="#contact" class="inline-flex items-center gap-2 font-bold text-sandgold-600 hover:text-sandgold-700 transition">
+          <span data-i18n="proj_cta">اطلب ملف سابقة الأعمال الكامل (Company Profile)</span>
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-7">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-sm hover:shadow-luxury transition group">
+          <div class="h-48 bg-gradient-to-br from-petroleum-900 via-petroleum-800 to-petroleum-950 p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute inset-0 bg-oil-grid opacity-40"></div>
+            <div class="relative flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full bg-sandgold-500 text-white text-xs font-bold" data-i18n="proj1_tag">حوض سرت النفطي</span>
+              <span class="text-xs font-english text-slate-300">2025 - 2026</span>
+            </div>
+            <div class="relative">
+              <i class="fa-solid fa-gears text-3xl text-sandgold-400 mb-2"></i>
+              <h3 class="text-lg font-extrabold text-white" data-i18n="proj1_title">تأهيل وصيانة خطوط الإنتاج ومحطات الضخ</h3>
+            </div>
+          </div>
+          <div class="p-6 space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="proj1_desc">
+              تنفيذ أعمال الصيانة الميكانيكية واستبدال الصمامات عالية الضغط واختبار الأنابيب دون توقف العمليات التشغيلية الرئيسية.
+            </p>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-petroleum-800">
+              <span data-i18n="proj_status_done"><i class="fa-solid fa-circle-check text-emerald-600 ml-1"></i> مكتمل بنجاح 100%</span>
+              <span class="text-sandgold-600 font-english">0 LTI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-sm hover:shadow-luxury transition group">
+          <div class="h-48 bg-gradient-to-br from-petroleum-800 via-slate-900 to-petroleum-950 p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute inset-0 bg-oil-grid opacity-40"></div>
+            <div class="relative flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full bg-sandgold-500 text-white text-xs font-bold" data-i18n="proj2_tag">حوض مرزق - الجنوب</span>
+              <span class="text-xs font-english text-slate-300">2024 - 2026</span>
+            </div>
+            <div class="relative">
+              <i class="fa-solid fa-truck-moving text-3xl text-sandgold-400 mb-2"></i>
+              <h3 class="text-lg font-extrabold text-white" data-i18n="proj2_title">النقل الثقيل وتعبيد الطرق الحقلية</h3>
+            </div>
+          </div>
+          <div class="p-6 space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="proj2_desc">
+              نقل منصات الحفر والمعدات الثقيلة عبر المسارات الصحراوية وتجهيز قواعد الحفر والطرق الرابطة بين الآبار.
+            </p>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-petroleum-800">
+              <span data-i18n="proj_status_active"><i class="fa-solid fa-rotate text-sandgold-600 ml-1"></i> عقد مستمر</span>
+              <span class="text-sandgold-600 font-english">+45,000 KM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-sm hover:shadow-luxury transition group">
+          <div class="h-48 bg-gradient-to-br from-petroleum-950 via-petroleum-900 to-slate-900 p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute inset-0 bg-oil-grid opacity-40"></div>
+            <div class="relative flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full bg-sandgold-500 text-white text-xs font-bold" data-i18n="proj3_tag">الموانئ والمصافي النفطية</span>
+              <span class="text-xs font-english text-slate-300">2025</span>
+            </div>
+            <div class="relative">
+              <i class="fa-solid fa-industry text-3xl text-sandgold-400 mb-2"></i>
+              <h3 class="text-lg font-extrabold text-white" data-i18n="proj3_title">توريد معدات القياس والتحكم وقطع الغيار</h3>
+            </div>
+          </div>
+          <div class="p-6 space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="proj3_desc">
+              توريد وتركيب أجهزة القياس الدقيقة، المضخات الصناعية، ومستلزمات السلامة الصناعية من مصنعين معتمدين عالمياً.
+            </p>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-petroleum-800">
+              <span data-i18n="proj_status_done"><i class="fa-solid fa-circle-check text-emerald-600 ml-1"></i> تم التسليم والاعتماد</span>
+              <span class="text-sandgold-600 font-english">API SPEC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- 6. INTERACTIVE QUOTE / TENDER PORTAL & CONTACT SECTION                -->
+  <!-- ===================================================================== -->
+  <section id="contact" class="py-20 sm:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12">
+        
+        <!-- Corporate Contact Info Column -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-2 text-sandgold-600 font-extrabold text-sm">
+            <span class="w-8 h-0.5 bg-sandgold-500"></span>
+            <span data-i18n="contact_kicker">تواصل معنا وبوابة المناقصات</span>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-black text-petroleum-900 leading-snug" data-i18n="contact_heading">
+            ابدأ شراكتك الميدانية مع فريقنا الهندسي
+          </h2>
+
+          <p class="text-slate-600 text-base leading-relaxed" data-i18n="contact_desc">
+            سواء كنت تبحث عن مقاول معتمد للخدمات الحقلية، أو شريك توريد معدات نفطية، أو طلب دخول في مناقصة، فريقنا التجاري والهندسي جاهز للرد على استفساراتكم بسرعة واحترافية.
+          </p>
+
+          <!-- Contact Details Cards -->
+          <div class="space-y-4 pt-2">
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-warmbg border border-slate-200/70">
+              <div class="w-11 h-11 rounded-xl bg-petroleum-900 text-sandgold-400 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-petroleum-900 text-sm" data-i18n="c_addr_t">المقر الرئيسي</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-1" data-i18n="c_addr_d">طرابلس - ليبيا، طريق المطار / بالقرب من مجمع الشركات النفطية</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-warmbg border border-slate-200/70">
+              <div class="w-11 h-11 rounded-xl bg-sandgold-500 text-white flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-petroleum-900 text-sm" data-i18n="c_phone_t">الهاتف والعمليات</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-1 font-english" dir="ltr">+218 21 000 0000  |  +218 91 000 0000</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-warmbg border border-slate-200/70">
+              <div class="w-11 h-11 rounded-xl bg-petroleum-900 text-sandgold-400 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-envelope-open-text"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-petroleum-900 text-sm" data-i18n="c_email_t">البريد الإلكتروني للمناقصات والعقود</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-1 font-english" dir="ltr">tenders@hadabatalrimal.ly  |  info@hadabatalrimal.ly</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Quote & Tender Inquiry Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-warmbg rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-luxury">
+            <div class="flex items-center justify-between border-b border-slate-200 pb-5 mb-6">
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-petroleum-900" data-i18n="form_title">بوابة طلب عرض سعر أو تسجيل مناقصة</h3>
+                <p class="text-xs sm:text-sm text-slate-500 mt-1" data-i18n="form_sub">يرجى تعبئة البيانات أدناه وسيقوم مهندس المشاريع المختص بالتواصل معكم خلال 24 ساعة.</p>
+              </div>
+              <div class="hidden sm:flex w-12 h-12 rounded-2xl bg-sandgold-500/15 text-sandgold-600 items-center justify-center text-xl">
+                <i class="fa-solid fa-file-contract"></i>
+              </div>
+            </div>
+
+            <form id="quoteForm" onsubmit="handleQuoteSubmit(event)" class="space-y-5">
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-xs sm:text-sm font-bold text-petroleum-900 mb-2" data-i18n="f_name">الاسم الكامل / المسؤول *</label>
+                  <input type="text" id="senderName" required placeholder="م. أحمد الفيتوري" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 focus:border-sandgold-500 focus:ring-2 focus:ring-sandgold-500/20 outline-none text-sm transition" />
+                </div>
+                <div>
+                  <label class="block text-xs sm:text-sm font-bold text-petroleum-900 mb-2" data-i18n="f_company">اسم الشركة أو الجهة *</label>
+                  <input type="text" id="companyName" required placeholder="شركة الواحة / الخليج العربي..." class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 focus:border-sandgold-500 focus:ring-2 focus:ring-sandgold-500/20 outline-none text-sm transition" />
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-xs sm:text-sm font-bold text-petroleum-900 mb-2" data-i18n="f_email">البريد الإلكتروني الرسمي *</label>
+                  <input type="email" id="senderEmail" required placeholder="name@oilcompany.ly" dir="ltr" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 focus:border-sandgold-500 focus:ring-2 focus:ring-sandgold-500/20 outline-none text-sm transition" />
+                </div>
+                <div>
+                  <label class="block text-xs sm:text-sm font-bold text-petroleum-900 mb-2" data-i18n="f_phone">رقم الهاتف *</label>
+                  <input type="tel" id="senderPhone" required placeholder="+218 91 000 0000" dir="ltr" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 focus:border-sandgold-500 focus:ring-2 focus:ring-sandgold-500/20 outline-none text-sm transition" />
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-xs sm:text-sm font-bold text-petroleum-900 mb-2" data-i18n="f_service">فئة الخدمة المطلوبة *</label>
+                  <select id="serviceCategory" required class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 focus:border-sandgold-500 focus:ring-2 focus:ring-sandgold-500/20 outline-none text-sm transition">
+                    <option value="drilling" data-i18n="srv1_title">خدمات الحفر وصيانة الآبار</option>
+                    <option value="supply" data-i18n="srv2_title">التوريدات والمعدات النفطية</option>
+                    <option value="logistics" data-i18n="srv3_title">الخدمات اللوجستية والنقل الثقيل للحقول</option>
+                    <option value="maintenance" data-i18n="srv4_title">الصيانة الميكانيكية والكهربائية</option>
+                    <option value="civil" data-i18n="srv5_title">خدمات البنية التحتية والإنشاءات الحقلية</option>
+                    <option value="environment" data-i18n="srv6_title">إدارة النفايات وحماية البيئة</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-xs sm:text-sm font-bold text-petroleum-900 mb-2" data-i18n="f_field">موقع الحقل / المنطقة *</label>
+                  <select id="fieldLocation" required class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 focus:border-sandgold-500 focus:ring-2 focus:ring-sandgold-500/20 outline-none text-sm transition">
+                    <option value="sirte" data-i18n="loc_sirte">حوض سرت (الواحة، السرير، البريقة، رأس لانوف)</option>
+                    <option value="murzuq" data-i18n="loc_murzuq">حوض مرزق (الشرارة، الفيل)</option>
+                    <option value="ghadames" data-i18n="loc_ghadames">حوض غدامس والحمادة</option>
+                    <option value="offshore" data-i18n="loc_offshore">الحقول البحرية والموانئ النفطية</option>
+                    <option value="other" data-i18n="loc_other">موقع آخر / مقر إداري</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs sm:text-sm font-bold text-petroleum-900 mb-2" data-i18n="f_details">تفاصيل الطلب أو المواصفات الفنية *</label>
+                <textarea id="projectDetails" rows="4" required placeholder="يرجى كتابة نبذة عن نطاق العمل المطلوب، الكميات، أو موعد تقديم العطاء..." class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 focus:border-sandgold-500 focus:ring-2 focus:ring-sandgold-500/20 outline-none text-sm transition"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-l from-petroleum-900 to-petroleum-800 hover:from-sandgold-600 hover:to-sandgold-500 text-white font-extrabold text-base shadow-lg transition-all duration-300 flex items-center justify-center gap-3 cursor-pointer">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span data-i18n="f_submit">إرسال الطلب واستلام رقم المرجع</span>
+              </button>
+            </form>
+
+            <!-- Instant Confirmation Message Box (Replaces alert) -->
+            <div id="quoteConfirmation" class="hidden mt-6 p-6 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-950">
+              <div class="flex items-start gap-4">
+                <div class="w-11 h-11 rounded-full bg-emerald-600 text-white flex items-center justify-center shrink-0 text-lg">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="space-y-2 flex-1">
+                  <h4 class="font-extrabold text-lg text-emerald-900" data-i18n="conf_title">تم استلام طلبكم بنجاح!</h4>
+                  <p class="text-sm text-emerald-800" id="confSummaryText"></p>
+                  <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white border border-emerald-200 text-xs font-bold font-english">
+                    <span>REF:</span>
+                    <span id="refNumber" class="text-sandgold-600">HR-2026-8492</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PROFESSIONAL DARK PETROLEUM FOOTER WITH ADAPTED SVG LOGO              -->
+  <!-- ===================================================================== -->
+  <footer class="bg-petroleum-950 text-slate-300 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Brand Column with Dark-Adapted Vector SVG Logo -->
+        <div class="lg:col-span-5 space-y-5">
+          <a href="#home" class="inline-block">
+            <svg class="h-24 w-auto" viewBox="0 0 460 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="goldArcDark" x1="95" y1="20" x2="210" y2="95" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#F2D488"/>
+                  <stop offset="50%" stop-color="#C89B3C"/>
+                  <stop offset="100%" stop-color="#9A6B1D"/>
+                </linearGradient>
+                <linearGradient id="oilDropDark" x1="185" y1="18" x2="255" y2="85" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#384654"/>
+                  <stop offset="50%" stop-color="#141A20"/>
+                  <stop offset="100%" stop-color="#070A0D"/>
+                </linearGradient>
+                <clipPath id="dropClipDark">
+                  <path d="M222 17C222 17 183 51 183 68C183 84.5 200.5 92 222 92C243.5 92 261 84.5 261 68C261 51 222 17 222 17Z"/>
+                </clipPath>
+              </defs>
+              <!-- Left Gold Swoosh -->
+              <path d="M180 91C134 83 116 56 135 33C153 12 203 7 248 16C207 13 163 20 150 39C138 56 151 78 180 91Z" fill="url(#goldArcDark)"/>
+              <!-- Right Light Silver Swoosh -->
+              <path d="M250 17C294 26 322 50 315 73C310 86 296 93 278 96C291 90 301 81 304 69C309 49 286 28 250 17Z" fill="#E2E8F0"/>
+              <!-- Glossy Oil Droplet -->
+              <path d="M222 17C222 17 183 51 183 68C183 84.5 200.5 92 222 92C243.5 92 261 84.5 261 68C261 51 222 17 222 17Z" fill="url(#oilDropDark)" stroke="#C89B3C" stroke-width="0.6"/>
+              <!-- Specular Highlight -->
+              <path d="M214 29C203 39 192 52 190 62C189 65 193 65 195 61C198 51 206 39 216 31C218 29 216 27 214 29Z" fill="#FFFFFF" fill-opacity="0.9"/>
+              <!-- Desert Mesa Inside Drop -->
+              <g clip-path="url(#dropClipDark)">
+                <path d="M180 65Q202 58 222 62Q242 66 265 62L265 95L180 95Z" fill="#D4A347"/>
+                <path d="M196 68L205 56H236L247 68Z" fill="#E8C56E"/>
+                <path d="M205 56L201 68H209L211 56Z" fill="#9E6E1E" fill-opacity="0.7"/>
+                <path d="M236 56L247 68H239L234 56Z" fill="#7D5211" fill-opacity="0.8"/>
+                <path d="M182 77C198 71 214 75 230 81C244 86 254 83 263 79V94H182V77Z" fill="#B58128"/>
+                <path d="M182 84C202 80 220 86 242 84C251 83 258 81 263 80V94H182V84Z" fill="#F2D488" fill-opacity="0.75"/>
+              </g>
+              <!-- Drilling Rig Derrick -->
+              <g fill="#E2E8F0" stroke="#E2E8F0" stroke-linecap="round">
+                <rect x="268" y="30" width="8" height="3" stroke-width="0.8"/>
+                <path d="M269 33L265 88M275 33L279 88" stroke-width="1.8" fill="none"/>
+                <path d="M268.5 42L275.5 49M275.5 42L268.5 49" stroke-width="1"/>
+                <path d="M267.8 52L276.2 60M276.2 52L267.8 60" stroke-width="1"/>
+                <path d="M267 63L277 72M277 63L267 72" stroke-width="1"/>
+                <path d="M266 75L278 85M278 75L266 85" stroke-width="1"/>
+                <rect x="262" y="85" width="20" height="6" rx="1"/>
+                <rect x="285" y="58" width="5" height="33" rx="1"/>
+                <rect x="293" y="66" width="7" height="25" rx="1.5"/>
+                <rect x="302" y="75" width="9" height="16" rx="2"/>
+              </g>
+              <!-- Horizon Wave -->
+              <path d="M98 97C155 89 205 91 255 96C295 100 328 98 355 95C322 102 285 103 245 99C195 94 148 94 98 97Z" fill="#E2E8F0"/>
+              <path d="M165 98C215 93 265 95 335 97C285 101 230 101 165 98Z" fill="#C89B3C"/>
+              <!-- Typography Adapted for Dark Background -->
+              <text x="230" y="116" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="800" font-size="18.5" fill="#FFFFFF">
+                شركة <tspan fill="#E5C16C">هضبة</tspan> الرمال المتجددة
+              </text>
+              <line x1="95" y1="128" x2="178" y2="128" stroke="#FFFFFF" stroke-width="0.9" stroke-opacity="0.35"/>
+              <text x="230" y="131.5" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="700" font-size="11.5" fill="#CBD5E1">
+                للخدمات النفطية
+              </text>
+              <line x1="282" y1="128" x2="365" y2="128" stroke="#FFFFFF" stroke-width="0.9" stroke-opacity="0.35"/>
+              <text x="230" y="143" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="9.5" letter-spacing="1.6" fill="#FFFFFF">
+                HADABATAL-RIMAL AL-MUTAJADIDA
+              </text>
+              <line x1="95" y1="150.5" x2="156" y2="150.5" stroke="#C89B3C" stroke-width="1"/>
+              <text x="230" y="153" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="7.2" letter-spacing="2.2" fill="#E5C16C">
+                FOR OILFIELD SERVICES
+              </text>
+              <line x1="304" y1="150.5" x2="365" y2="150.5" stroke="#C89B3C" stroke-width="1"/>
+            </svg>
+          </a>
+          <p class="text-sm text-slate-400 leading-relaxed max-w-md" data-i18n="footer_about">
+            شركة رائدة في تقديم الخدمات النفطية المتكاملة، التوريدات الصناعية، الدعم اللوجستي، وأعمال الصيانة والإنشاءات الحقلية في ليبيا والمنطقة.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="lg:col-span-3 space-y-4">
+          <h4 class="text-white font-extrabold text-base border-r-4 border-sandgold-500 pr-3" data-i18n="footer_links_t">روابط سريعة</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#home" class="hover:text-sandgold-400 transition" data-i18n="nav_home">الرئيسية</a></li>
+            <li><a href="#about" class="hover:text-sandgold-400 transition" data-i18n="nav_about">من نحن</a></li>
+            <li><a href="#services" class="hover:text-sandgold-400 transition" data-i18n="nav_services">خدماتنا النفطية</a></li>
+            <li><a href="#hse" class="hover:text-sandgold-400 transition" data-i18n="nav_hse">السلامة والجودة (HSE)</a></li>
+            <li><a href="#projects" class="hover:text-sandgold-400 transition" data-i18n="nav_projects">سجل المشاريع</a></li>
+            <li><a href="#contact" class="hover:text-sandgold-400 transition" data-i18n="nav_cta">طلب عرض سعر / مناقصة</a></li>
+          </ul>
+        </div>
+
+        <!-- Core Services Links -->
+        <div class="lg:col-span-4 space-y-4">
+          <h4 class="text-white font-extrabold text-base border-r-4 border-sandgold-500 pr-3" data-i18n="footer_srv_t">قطاعات الخدمات</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#services" class="hover:text-sandgold-400 transition" data-i18n="srv1_title">خدمات الحفر وصيانة الآبار</a></li>
+            <li><a href="#services" class="hover:text-sandgold-400 transition" data-i18n="srv2_title">التوريدات والمعدات النفطية</a></li>
+            <li><a href="#services" class="hover:text-sandgold-400 transition" data-i18n="srv3_title">الخدمات اللوجستية والنقل الثقيل للحقول</a></li>
+            <li><a href="#services" class="hover:text-sandgold-400 transition" data-i18n="srv4_title">الصيانة الميكانيكية والكهربائية</a></li>
+            <li><a href="#services" class="hover:text-sandgold-400 transition" data-i18n="srv5_title">خدمات البنية التحتية والإنشاءات الحقلية</a></li>
+            <li><a href="#services" class="hover:text-sandgold-400 transition" data-i18n="srv6_title">إدارة النفايات وحماية البيئة</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <p data-i18n="footer_copy">
+          © 2026 شركة هضبة الرمال المتجددة للخدمات النفطية. جميع الحقوق محفوظة.
+        </p>
+        <p class="font-english tracking-wider text-slate-500">
+          HADABATAL-RIMAL AL-MUTAJADIDA FOR OILFIELD SERVICES
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================== -->
+  <!-- SERVICE DETAILS MODAL                                                 -->
+  <!-- ===================================================================== -->
+  <div id="serviceModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-petroleum-950/80 backdrop-blur-sm">
+    <div class="bg-white rounded-3xl max-w-2xl w-full overflow-hidden shadow-2xl border border-slate-200 animate-[fadeIn_0.2s_ease-out]">
+      <div class="bg-petroleum-900 p-6 sm:p-8 text-white flex items-start justify-between gap-4">
+        <div class="flex items-center gap-4">
+          <div id="modalIcon" class="w-14 h-14 rounded-2xl bg-sandgold-500 text-white flex items-center justify-center text-2xl shrink-0"></div>
+          <div>
+            <span id="modalCategory" class="text-xs font-bold text-sandgold-400 uppercase tracking-wider"></span>
+            <h3 id="modalTitle" class="text-xl sm:text-2xl font-black mt-1"></h3>
+          </div>
+        </div>
+        <button onclick="closeServiceModal()" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition cursor-pointer">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+      <div class="p-6 sm:p-8 space-y-6">
+        <p id="modalDesc" class="text-slate-600 text-sm sm:text-base leading-relaxed"></p>
+        <div>
+          <h4 class="font-extrabold text-petroleum-900 text-sm mb-3" data-i18n="modal_scope_title">نطاق الأعمال والتجهيزات الفنية:</h4>
+          <ul id="modalBullets" class="space-y-2.5 text-sm text-slate-700"></ul>
+        </div>
+        <div class="pt-4 border-t border-slate-100 flex flex-wrap items-center justify-end gap-3">
+          <button onclick="closeServiceModal()" class="px-5 py-2.5 rounded-xl border border-slate-300 text-slate-700 font-bold text-sm hover:bg-slate-50 transition cursor-pointer" data-i18n="modal_close">
+            إغلاق
+          </button>
+          <a href="#contact" onclick="selectServiceInForm()" class="px-6 py-2.5 rounded-xl bg-sandgold-500 hover:bg-sandgold-600 text-white font-bold text-sm shadow-gold transition flex items-center gap-2">
+            <i class="fa-solid fa-file-signature"></i>
+            <span data-i18n="modal_request">اطلب عرض سعر لهذه الخدمة</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- JAVASCRIPT LOGIC: SERVICES DATA, BILINGUAL I18N, & INTERACTIONS       -->
+  <!-- ===================================================================== -->
+  <script>
+    let currentLang = 'ar';
+    let activeFilter = 'all';
+    let selectedModalServiceId = 'drilling';
+
+    const servicesData = [
+      {
+        id: 'drilling',
+        category: 'field',
+        icon: 'fa-oil-well',
+        ar: {
+          catLabel: 'العمليات الحقلية',
+          title: 'خدمات الحفر وصيانة الآبار',
+          short: 'دعم متكامل لعمليات حفر واستصلاح الآبار النفطية والغازية وتوفير الطواقم والمعدات المساندة.',
+          full: 'نقدم حلولاً ميدانية متخصصة لدعم منصات الحفر وصيانة الآبار (Workover) لضمان استمرارية الإنتاج وتقليل فترات التوقف غير المخططة في الحقول النفطية.',
+          bullets: [
+            'توفير معدات رأس البئر (Wellhead Equipment) وصمامات التحكم بالضغط.',
+            'خدمات سوائل الحفر، التسميت، واختبار الآبار السطحية.',
+            'توفير أطقم فنية ومهندسي حفر ذوي خبرة ميدانية عالية.',
+            'صيانة وتأهيل رؤوس الآبار المنتجة وخطوط التدفق.'
+          ]
+        },
+        en: {
+          catLabel: 'Field Operations',
+          title: 'Drilling & Well Maintenance Support',
+          short: 'Comprehensive support for oil & gas drilling, workover operations, specialized crews, and auxiliary rig equipment.',
+          full: 'We deliver specialized field solutions supporting drilling and workover rigs to maximize production uptime and minimize non-productive time across oilfields.',
+          bullets: [
+            'Supply and installation of Wellhead Equipment and high-pressure valves.',
+            'Drilling fluids support, cementing logistics, and surface well testing.',
+            'Deployment of certified drilling engineers and field technicians.',
+            'Preventive maintenance and rehabilitation of producing wellheads and flowlines.'
+          ]
+        }
+      },
+      {
+        id: 'supply',
+        category: 'supply',
+        icon: 'fa-boxes-stacked',
+        ar: {
+          catLabel: 'سلاسل الإمداد والتوريد',
+          title: 'التوريدات والمعدات النفطية',
+          short: 'توريد الأنابيب، الصمامات، المضخات، وقطع الغيار الأصلية المطابقة لمواصفات API العالمية.',
+          full: 'بفضل شبكة علاقاتنا المباشرة مع كبرى الشركات المصنعة في أوروبا وأمريكا وآسيا، نؤمن توريد المعدات النفطية وقطع الغيار الحيوية في أوقات قياسية.',
+          bullets: [
+            'توريد أنابيب التغليف والإنتاج (OCTG Pipes) والوصلات الصناعية.',
+            'مضخات الطرد المركزي، الضواغط، والمبادلات الحرارية.',
+            'أجهزة القياس والتحكم الدقيق (Instrumentation & Valves).',
+            'معدات السلامة الشخصية والوقاية من الحرائق المعتمدة.'
+          ]
+        },
+        en: {
+          catLabel: 'Supply Chain',
+          title: 'Oilfield Equipment & Industrial Supply',
+          short: 'Sourcing and delivery of OCTG pipes, valves, pumps, and genuine spare parts certified to API standards.',
+          full: 'Through direct partnerships with leading global OEMs across Europe, North America, and Asia, we ensure rapid procurement and delivery of mission-critical oilfield equipment.',
+          bullets: [
+            'OCTG casing, tubing, line pipes, and industrial fittings.',
+            'Centrifugal pumps, compressors, and heat exchangers.',
+            'Precision instrumentation, sensors, and automated control valves.',
+            'Certified PPE, gas detection, and industrial firefighting systems.'
+          ]
+        }
+      },
+      {
+        id: 'logistics',
+        category: 'supply',
+        icon: 'fa-truck-front',
+        ar: {
+          catLabel: 'النقل واللوجستيات',
+          title: 'الخدمات اللوجستية والنقل الثقيل للحقول',
+          short: 'أسطول متكامل من الشاحنات الثقيلة والرافعات لنقل منصات الحفر والمعدات عبر المواقع الصحراوية.',
+          full: 'نمتلك أسطولاً حديثاً ومجهزاً للعمل في التضاريس الصحراوية الوعرة لنقل الحفارات والمعدات فائقة الأوزان مع تتبع مباشر عبر الأقمار الصناعية.',
+          bullets: [
+            'نقل منصات الحفر (Rig Moves) والمعدات الثقيلة ذات الأبعاد الخاصة.',
+            'توفير رافعات هيدروليكية (Cranes) ومعدات مناولة ذات حمولات عالية.',
+            'إدارة المخازن الحقلية والتخليص الجمركي للمعدات النفطية.',
+            'نظام تتبع GPS ومراقبة سرعة وسلامة السائقين على مدار الساعة.'
+          ]
+        },
+        en: {
+          catLabel: 'Logistics & Transport',
+          title: 'Field Logistics & Heavy Transport',
+          short: 'Dedicated fleet of heavy-duty haulers and cranes for rig moves and desert oilfield transport.',
+          full: 'We operate a modern, desert-ready heavy transport fleet engineered to move drilling rigs and oversized industrial loads safely across remote basins with 24/7 GPS tracking.',
+          bullets: [
+            'Complete drilling rig moves and oversized heavy cargo transport.',
+            'Heavy-duty mobile cranes, forklifts, and material handling equipment.',
+            'Field warehouse management and oilfield customs clearance.',
+            '24/7 GPS fleet telemetry and strict desert driving safety compliance.'
+          ]
+        }
+      },
+      {
+        id: 'maintenance',
+        category: 'field',
+        icon: 'fa-screwdriver-wrench',
+        ar: {
+          catLabel: 'الهندسة والصيانة',
+          title: 'الصيانة الميكانيكية والكهربائية',
+          short: 'أعمال الصيانة الوقائية والتصحيحية للمعدات الدوارة، مولدات الطاقة، وأنظمة التحكم في المحطات.',
+          full: 'توفر فرقنا الهندسية خدمات الصيانة المتكاملة لمحطات الضخ والتكرير ومرافق المعالجة لضمان أعلى كفاءة تشغيلية وإطالة العمر الافتراضي للأصول.',
+          bullets: [
+            'صيانة وعمرة المضخات، التوربينات، والمحركات الصناعية.',
+            'فحص واختبار خطوط الأنابيب والخزانات (NDT Inspection).',
+            'صيانة لوحات التوزيع الكهربائية، المولدات، وأنظمة SCADA.',
+            'خدمات اللحام التخصصي عالي الضغط المعتمد دولياً.'
+          ]
+        },
+        en: {
+          catLabel: 'Engineering & Maintenance',
+          title: 'Mechanical, Electrical & Instrumentation Maintenance',
+          short: 'Preventive and corrective maintenance for rotating equipment, power generators, and control systems.',
+          full: 'Our multidisciplinary engineering teams execute comprehensive maintenance for pumping stations, refineries, and processing facilities to maximize asset reliability.',
+          bullets: [
+            'Overhaul and maintenance of industrial pumps, turbines, and engines.',
+            'Non-Destructive Testing (NDT) for pipelines and storage tanks.',
+            'Maintenance of switchgear, power generators, and SCADA/PLC panels.',
+            'Certified high-pressure pipe welding and fabrication.'
+          ]
+        }
+      },
+      {
+        id: 'civil',
+        category: 'infra',
+        icon: 'fa-helmet-safety',
+        ar: {
+          catLabel: 'الإنشاءات الحقلية',
+          title: 'خدمات البنية التحتية والإنشاءات الحقلية',
+          short: 'تجهيز مواقع الحفر، شق وتعبيد الطرق الصحراوية، وبناء المعسكرات والمرافق الهندسية.',
+          full: 'ننفذ مشاريع البنية التحتية والهندسة المدنية داخل الحقول النفطية وفق المواصفات الهندسية المعتمدة لتحمل الظروف المناخية القاسية.',
+          bullets: [
+            'تجهيز وتسوية مواقع الحفر (Rig Pads) وحفر أحواض الطين.',
+            'شق وتمهيد الطرق الصحراوية الرابطة بين الآبار والمحطات.',
+            'إنشاء وتجهيز المعسكرات السكنية والمكاتب الميدانية المتكاملة.',
+            'أعمال القواعد الخرسانية للمعدات الثقيلة وخزانات الوقود.'
+          ]
+        },
+        en: {
+          catLabel: 'Civil & Infrastructure',
+          title: 'Oilfield Civil Works & Infrastructure',
+          short: 'Rig pad preparation, desert access road construction, and turnkey field camp facilities.',
+          full: 'We execute civil engineering and infrastructure works within active oilfields built to withstand harsh desert environments and heavy industrial loads.',
+          bullets: [
+            'Rig site preparation, earthworks, and lined mud pit construction.',
+            'Grading and paving of desert access roads connecting wells and stations.',
+            'Turnkey field camps, offices, and life-support facilities.',
+            'Reinforced concrete foundations for heavy machinery and storage tanks.'
+          ]
+        }
+      },
+      {
+        id: 'environment',
+        category: 'infra',
+        icon: 'fa-seedling',
+        ar: {
+          catLabel: 'البيئة والاستدامة',
+          title: 'إدارة النفايات وحماية البيئة',
+          short: 'معالجة المخلفات النفطية، تنظيف الخزانات، وإعادة تأهيل التربة الملوثة وفق المعايير البيئية.',
+          full: 'نقدم حلولاً بيئية متقدمة لمساعدة الشركات النفطية على الامتثال للمعايير البيئية والحفاظ على سلامة النظام البيئي في مناطق الامتياز.',
+          bullets: [
+            'تنظيف خزانات النفط الخام وإزالة الرواسب الهيدروكربونية بأمان.',
+            'معالجة مخلفات سوائل الحفر (Drill Cuttings) والتربة الملوثة.',
+            'الاستجابة السريعة لحالات التسرب النفطي واحتوائها.',
+            'إعداد دراسات تقييم الأثر البيئي (EIA) والمراقبة الدورية.'
+          ]
+        },
+        en: {
+          catLabel: 'Environment & Sustainability',
+          title: 'Environmental Management & Waste Treatment',
+          short: 'Oilfield waste treatment, tank cleaning, and contaminated soil remediation to ISO 14001 standards.',
+          full: 'We deliver advanced environmental services helping oil operators maintain full regulatory compliance and protect fragile desert ecosystems.',
+          bullets: [
+            'Safe crude oil storage tank cleaning and sludge recovery.',
+            'Treatment of drilling cuttings and bioremediation of contaminated soil.',
+            'Rapid oil spill containment and emergency response.',
+            'Environmental Impact Assessments (EIA) and periodic monitoring.'
+          ]
+        }
+      }
+    ];
+
+    const translations = {
+      ar: {
+        topbar_location: 'طرابلس - ليبيا | المنطقة الصناعية / طريق المطار',
+        topbar_hours: 'عمليات ميدانية ودعم طوارئ 24/7',
+        nav_home: 'الرئيسية',
+        nav_about: 'من نحن',
+        nav_services: 'خدماتنا',
+        nav_hse: 'السلامة والجودة',
+        nav_projects: 'المشاريع',
+        nav_contact: 'تواصل معنا',
+        nav_cta: 'طلب عرض سعر / مناقصة',
+        hero_badge: 'الريادة في الخدمات النفطية والهندسية المتكاملة',
+        hero_title: 'شريككم الموثوق في <span class="text-transparent bg-clip-text bg-gradient-to-l from-sandgold-300 via-sandgold-400 to-sandgold-500">الخدمات النفطية المتكاملة</span> والحلول الهندسية',
+        hero_subtitle: 'تقدم شركة هضبة الرمال المتجددة للخدمات النفطية حلولاً ميدانية ولوجستية وهندسية عالية الكفاءة لدعم عمليات استكشاف وإنتاج النفط والغاز في الحقول الليبية والإقليمية، وفق أعلى معايير السلامة والجودة العالمية.',
+        hero_cta_primary: 'استكشف خدماتنا',
+        hero_cta_secondary: 'تواصل مع فريقنا',
+        hero_trust_1: 'معتمدون وفق معايير ISO & HSE',
+        hero_trust_2: 'أسطول ميداني ومعدات ثقيلة جاهزة',
+        hero_card_status: 'العمليات الحقلية نشطة',
+        hero_mini_1_t: 'دعم الحقول',
+        hero_mini_1_d: 'تغطية شاملة لحوض سرت، مرزق، وغدامس',
+        hero_mini_2_t: 'جودة معتمدة',
+        hero_mini_2_d: 'توريدات ومعدات مطابقة لمواصفات API',
+        kpi_1_title: 'عاماً من الخبرة',
+        kpi_1_sub: 'في قطاع النفط والغاز والطاقة',
+        kpi_2_title: 'معايير السلامة HSE',
+        kpi_2_sub: 'التزام صارم بسجل خالٍ من الحوادث',
+        kpi_3_title: 'مشروع وعقد ميداني',
+        kpi_3_sub: 'منفذ بنجاح لكبرى الشركات النفطية',
+        kpi_4_title: 'استجابة ودعم ميداني',
+        kpi_4_sub: 'فرق فنية ولوجستية على مدار الساعة',
+        about_brand_badge: 'الهوية المؤسسية المعتمدة',
+        about_symbol_1: '<strong>قطرة النفط والهضبة الذهبية:</strong> تجسد التناغم بين ثروات الطاقة في باطن الأرض وطبيعة الصحراء الليبية الغنية بالموارد.',
+        about_symbol_2: '<strong>برج الحفر والمسار الدائري:</strong> يرمز إلى الاستمرارية، الدقة الهندسية، والتطور المتجدد في خدمات الحقول النفطية.',
+        about_kicker: 'من نحن',
+        about_heading: 'خبرة ميدانية راسخة تدعم استدامة الإنتاج في قطاع النفط والغاز',
+        about_desc: 'تأسست <strong>شركة هضبة الرمال المتجددة للخدمات النفطية</strong> لتكون ركيزة أساسية في تقديم الخدمات المساندة والحلول الهندسية واللوجستية لشركات النفط الوطنية والعالمية. نجمع بين الكفاءات الوطنية المؤهلة والتقنيات الحديثة لتنفيذ المشاريع في أصعب الظروف الصحراوية والميدانية بكفاءة وموثوقية عالية.',
+        vision_title: 'رؤيتنا',
+        vision_desc: 'أن نكون الخيار الأول والشريك الاستراتيجي الأكثر موثوقية في تقديم الخدمات النفطية المتكاملة في ليبيا وشمال أفريقيا.',
+        mission_title: 'رسالتنا',
+        mission_desc: 'توفير خدمات هندسية وتوريدات لوجستية بمعايير جودة عالمية تعزز كفاءة العمليات الإنتاجية وتحافظ على سلامة الأفراد والبيئة.',
+        values_title: 'قيمنا الجوهرية',
+        values_desc: 'السلامة أولاً، النزاهة والشفافية، الالتزام بالمواعيد، الابتكار المستمر، والتميز في التنفيذ الميداني.',
+        services_kicker: 'مجالات التخصص',
+        services_heading: 'خدماتنا النفطية والهندسية المتكاملة',
+        services_subtitle: 'نقدم باقة متكاملة من الحلول الميدانية واللوجستية المصممة لتلبية متطلبات شركات الاستكشاف والإنتاج والتكرير بأعلى درجات الاعتمادية.',
+        filter_all: 'جميع الخدمات (6)',
+        filter_field: 'العمليات والحفر والصيانة',
+        filter_supply: 'التوريدات والنقل الثقيل',
+        filter_infra: 'الإنشاءات والبيئة',
+        hse_kicker: 'الصحة والسلامة والبيئة والجودة',
+        hse_heading: 'التزام مطلق بمعايير السلامة العالمية ورؤية <span class="text-sandgold-400">"صفر حوادث"</span>',
+        hse_desc: 'في شركة هضبة الرمال المتجددة، نضع سلامة كوادرنا البشرية، حماية المنشآت النفطية، والحفاظ على البيئة الصحراوية على رأس أولوياتنا التشغيلية. تخضع جميع عملياتنا لأنظمة إدارة جودة وسلامة معتمدة دولياً.',
+        hse_p1_t: 'تقييم المخاطر الميداني المستمر (JSA & PTW)',
+        hse_p1_d: 'تطبيق صارم لأنظمة تصاريح العمل وتحليل مخاطر المهام قبل بدء أي نشاط حقلي.',
+        hse_p2_t: 'الاستدامة وحماية البيئة الصحراوية',
+        hse_p2_d: 'إدارة مسؤولة للمخلفات النفطية ومنع التسربات وفق التشريعات البيئية الوطنية والدولية.',
+        iso1_t: 'نظام إدارة الجودة',
+        iso1_d: 'ضمان أعلى مستويات الدقة والكفاءة في التوريدات، الصيانة، وإدارة المشاريع الهندسية النفطية.',
+        iso2_t: 'الصحة والسلامة المهنية',
+        iso2_d: 'توفير بيئة عمل آمنة وصحية لجميع المهندسين والفنيين في مواقع الحفر والمنشآت الصناعية.',
+        iso3_t: 'نظام الإدارة البيئية',
+        iso3_d: 'الحد من الأثر البيئي للعمليات الحقلية وتطبيق تقنيات المعالجة الآمنة للنفايات الصناعية.',
+        iso4_t: 'مطابقة المواصفات النفطية',
+        iso4_d: 'جميع المعدات والصمامات والأنابيب الموردة معتمدة بشهادات منشأ وفحص فني من كبرى الشركات العالمية.',
+        proj_kicker: 'سجل الإنجازات الميدانية',
+        proj_heading: 'مشاريعنا في الحقول والمنشآت النفطية',
+        proj_cta: 'اطلب ملف سابقة الأعمال الكامل (Company Profile)',
+        proj1_tag: 'حوض سرت النفطي',
+        proj1_title: 'تأهيل وصيانة خطوط الإنتاج ومحطات الضخ',
+        proj1_desc: 'تنفيذ أعمال الصيانة الميكانيكية واستبدال الصمامات عالية الضغط واختبار الأنابيب دون توقف العمليات التشغيلية الرئيسية.',
+        proj2_tag: 'حوض مرزق - الجنوب',
+        proj2_title: 'النقل الثقيل وتعبيد الطرق الحقلية',
+        proj2_desc: 'نقل منصات الحفر والمعدات الثقيلة عبر المسارات الصحراوية وتجهيز قواعد الحفر والطرق الرابطة بين الآبار.',
+        proj3_tag: 'الموانئ والمصافي النفطية',
+        proj3_title: 'توريد معدات القياس والتحكم وقطع الغيار',
+        proj3_desc: 'توريد وتركيب أجهزة القياس الدقيقة، المضخات الصناعية، ومستلزمات السلامة الصناعية من مصنعين معتمدين عالمياً.',
+        proj_status_done: '<i class="fa-solid fa-circle-check text-emerald-600 ml-1"></i> مكتمل بنجاح 100%',
+        proj_status_active: '<i class="fa-solid fa-rotate text-sandgold-600 ml-1"></i> عقد مستمر',
+        contact_kicker: 'تواصل معنا وبوابة المناقصات',
+        contact_heading: 'ابدأ شراكتك الميدانية مع فريقنا الهندسي',
+        contact_desc: 'سواء كنت تبحث عن مقاول معتمد للخدمات الحقلية، أو شريك توريد معدات نفطية، أو طلب دخول في مناقصة، فريقنا التجاري والهندسي جاهز للرد على استفساراتكم بسرعة واحترافية.',
+        c_addr_t: 'المقر الرئيسي',
+        c_addr_d: 'طرابلس - ليبيا، طريق المطار / بالقرب من مجمع الشركات النفطية',
+        c_phone_t: 'الهاتف والعمليات',
+        c_email_t: 'البريد الإلكتروني للمناقصات والعقود',
+        form_title: 'بوابة طلب عرض سعر أو تسجيل مناقصة',
+        form_sub: 'يرجى تعبئة البيانات أدناه وسيقوم مهندس المشاريع المختص بالتواصل معكم خلال 24 ساعة.',
+        f_name: 'الاسم الكامل / المسؤول *',
+        f_company: 'اسم الشركة أو الجهة *',
+        f_email: 'البريد الإلكتروني الرسمي *',
+        f_phone: 'رقم الهاتف *',
+        f_service: 'فئة الخدمة المطلوبة *',
+        f_field: 'موقع الحقل / المنطقة *',
+        f_details: 'تفاصيل الطلب أو المواصفات الفنية *',
+        f_submit: 'إرسال الطلب واستلام رقم المرجع',
+        srv1_title: 'خدمات الحفر وصيانة الآبار',
+        srv2_title: 'التوريدات والمعدات النفطية',
+        srv3_title: 'الخدمات اللوجستية والنقل الثقيل للحقول',
+        srv4_title: 'الصيانة الميكانيكية والكهربائية',
+        srv5_title: 'خدمات البنية التحتية والإنشاءات الحقلية',
+        srv6_title: 'إدارة النفايات وحماية البيئة',
+        loc_sirte: 'حوض سرت (الواحة، السرير، البريقة، رأس لانوف)',
+        loc_murzuq: 'حوض مرزق (الشرارة، الفيل)',
+        loc_ghadames: 'حوض غدامس والحمادة',
+        loc_offshore: 'الحقول البحرية والموانئ النفطية',
+        loc_other: 'موقع آخر / مقر إداري',
+        conf_title: 'تم استلام طلبكم بنجاح!',
+        footer_about: 'شركة رائدة في تقديم الخدمات النفطية المتكاملة، التوريدات الصناعية، الدعم اللوجستي، وأعمال الصيانة والإنشاءات الحقلية في ليبيا والمنطقة.',
+        footer_links_t: 'روابط سريعة',
+        footer_srv_t: 'قطاعات الخدمات',
+        footer_copy: '© 2026 شركة هضبة الرمال المتجددة للخدمات النفطية. جميع الحقوق محفوظة.',
+        modal_scope_title: 'نطاق الأعمال والتجهيزات الفنية:',
+        modal_close: 'إغلاق',
+        modal_request: 'اطلب عرض سعر لهذه الخدمة',
+        card_more: 'التفاصيل الفنية'
+      },
+      en: {
+        topbar_location: 'Tripoli - Libya | Industrial Zone / Airport Road',
+        topbar_hours: '24/7 Field Operations & Emergency Support',
+        nav_home: 'Home',
+        nav_about: 'About Us',
+        nav_services: 'Services',
+        nav_hse: 'HSE & Quality',
+        nav_projects: 'Projects',
+        nav_contact: 'Contact',
+        nav_cta: 'Request Quote / Tender',
+        hero_badge: 'Excellence in Integrated Oilfield & Engineering Services',
+        hero_title: 'Your Trusted Partner in <span class="text-transparent bg-clip-text bg-gradient-to-r from-sandgold-300 via-sandgold-400 to-sandgold-500">Integrated Oilfield Services</span> & Engineering',
+        hero_subtitle: 'Hadabatal-Rimal Al-Mutajadida delivers high-efficiency field, logistics, and engineering solutions supporting upstream and midstream oil & gas operations across Libya and MENA under strict international HSE standards.',
+        hero_cta_primary: 'Explore Services',
+        hero_cta_secondary: 'Contact Our Team',
+        hero_trust_1: 'Certified ISO & HSE Standards',
+        hero_trust_2: 'Heavy Fleet & Field Equipment Ready',
+        hero_card_status: 'Field Operations Active',
+        hero_mini_1_t: 'Basin Coverage',
+        hero_mini_1_d: 'Active across Sirte, Murzuq & Ghadames',
+        hero_mini_2_t: 'Certified Supply',
+        hero_mini_2_d: 'Equipment compliant with API specs',
+        kpi_1_title: 'Years of Experience',
+        kpi_1_sub: 'In Oil, Gas & Energy Sector',
+        kpi_2_title: 'HSE Compliance',
+        kpi_2_sub: 'Strict Zero-Incident Commitment',
+        kpi_3_title: 'Field Contracts',
+        kpi_3_sub: 'Delivered for Major Oil Operators',
+        kpi_4_title: 'Field Support',
+        kpi_4_sub: 'Round-the-clock Technical Dispatch',
+        about_brand_badge: 'Official Corporate Identity',
+        about_symbol_1: '<strong>Oil Droplet & Golden Mesa:</strong> Symbolizes the synergy between subterranean energy wealth and the resource-rich Libyan desert plateau.',
+        about_symbol_2: '<strong>Drilling Derrick & Orbital Swoosh:</strong> Represents continuity, engineering precision, and renewable momentum in oilfield services.',
+        about_kicker: 'About Us',
+        about_heading: 'Proven Field Expertise Sustaining Oil & Gas Production',
+        about_desc: '<strong>Hadabatal-Rimal Al-Mutajadida for Oilfield Services</strong> was established as a cornerstone provider of integrated field support, engineering, and logistics for national and international oil companies. We combine skilled engineering talent with modern equipment to execute projects in harsh desert environments.',
+        vision_title: 'Our Vision',
+        vision_desc: 'To be the premier, most reliable strategic partner for integrated oilfield services across Libya and North Africa.',
+        mission_title: 'Our Mission',
+        mission_desc: 'Delivering world-class engineering services and supply chain solutions that optimize production efficiency while safeguarding personnel and the environment.',
+        values_title: 'Core Values',
+        values_desc: 'Safety First, Integrity & Transparency, Schedule Discipline, Continuous Innovation, and Operational Excellence.',
+        services_kicker: 'Core Capabilities',
+        services_heading: 'Integrated Oilfield & Engineering Services',
+        services_subtitle: 'A comprehensive portfolio of field, supply, and engineering solutions tailored to upstream and downstream operators.',
+        filter_all: 'All Services (6)',
+        filter_field: 'Drilling & Maintenance',
+        filter_supply: 'Supply & Heavy Logistics',
+        filter_infra: 'Civil & Environment',
+        hse_kicker: 'Health, Safety, Environment & Quality',
+        hse_heading: 'Uncompromising Safety Standards & <span class="text-sandgold-400">"Zero Harm"</span> Culture',
+        hse_desc: 'At Hadabatal-Rimal Al-Mutajadida, protecting our workforce, oilfield assets, and the desert ecosystem comes before every operational metric. All activities are governed by internationally certified HSE & Quality systems.',
+        hse_p1_t: 'Continuous Field Risk Assessment (JSA & PTW)',
+        hse_p1_d: 'Strict enforcement of Permit-to-Work systems and Job Safety Analysis prior to every field operation.',
+        hse_p2_t: 'Environmental Stewardship',
+        hse_p2_d: 'Responsible oilfield waste management and spill prevention aligned with national and international regulations.',
+        iso1_t: 'Quality Management System',
+        iso1_d: 'Ensuring precision and reliability across procurement, maintenance, and oilfield engineering execution.',
+        iso2_t: 'Occupational Health & Safety',
+        iso2_d: 'Providing a safe, hazard-controlled workplace for all engineers and technicians on rigs and plants.',
+        iso3_t: 'Environmental Management',
+        iso3_d: 'Minimizing environmental footprint and deploying safe treatment protocols for industrial waste.',
+        iso4_t: 'API & ASME Compliance',
+        iso4_d: 'All supplied valves, pipes, and equipment carry full OEM traceability and third-party inspection certificates.',
+        proj_kicker: 'Track Record',
+        proj_heading: 'Featured Oilfield & Industrial Projects',
+        proj_cta: 'Request Full Company Profile (PDF)',
+        proj1_tag: 'Sirte Basin',
+        proj1_title: 'Flowline Rehabilitation & Pumping Station Maintenance',
+        proj1_desc: 'Executed mechanical maintenance, high-pressure valve replacement, and pipeline hydrotesting without disrupting main production.',
+        proj2_tag: 'Murzuq Basin - South',
+        proj2_title: 'Heavy Rig Moves & Desert Access Roads',
+        proj2_desc: 'Transported drilling rigs and heavy equipment across desert routes alongside well-pad and access road construction.',
+        proj3_tag: 'Oil Terminals & Refineries',
+        proj3_title: 'Instrumentation, Control & Spare Parts Supply',
+        proj3_desc: 'Procured and commissioned precision instrumentation, industrial pumps, and safety systems from certified global OEMs.',
+        proj_status_done: '<i class="fa-solid fa-circle-check text-emerald-600 mr-1"></i> 100% Completed',
+        proj_status_active: '<i class="fa-solid fa-rotate text-sandgold-600 mr-1"></i> Ongoing Contract',
+        contact_kicker: 'Contact & Tender Portal',
+        contact_heading: 'Initiate Your Field Partnership With Our Engineering Team',
+        contact_desc: 'Whether you require an approved field contractor, specialized oilfield procurement, or tender participation, our commercial and technical teams respond promptly.',
+        c_addr_t: 'Headquarters',
+        c_addr_d: 'Tripoli - Libya, Airport Road / Near Oil Companies Complex',
+        c_phone_t: 'Telephone & Operations',
+        c_email_t: 'Tenders & Contracts Email',
+        form_title: 'Request a Quote or Submit Tender Inquiry',
+        form_sub: 'Complete the form below and a dedicated project engineer will contact you within 24 hours.',
+        f_name: 'Full Name / Contact Person *',
+        f_company: 'Company / Organization Name *',
+        f_email: 'Corporate Email Address *',
+        f_phone: 'Phone Number *',
+        f_service: 'Required Service Category *',
+        f_field: 'Oilfield / Basin Location *',
+        f_details: 'Project Scope or Technical Specifications *',
+        f_submit: 'Submit Inquiry & Generate Reference ID',
+        srv1_title: 'Drilling & Well Maintenance Support',
+        srv2_title: 'Oilfield Equipment & Industrial Supply',
+        srv3_title: 'Field Logistics & Heavy Transport',
+        srv4_title: 'Mechanical, Electrical & Instrumentation Maintenance',
+        srv5_title: 'Oilfield Civil Works & Infrastructure',
+        srv6_title: 'Environmental Management & Waste Treatment',
+        loc_sirte: 'Sirte Basin (Waha, Sarir, Brega, Ras Lanuf)',
+        loc_murzuq: 'Murzuq Basin (Sharara, El Feel)',
+        loc_ghadames: 'Ghadames & Hamada Basin',
+        loc_offshore: 'Offshore Fields & Oil Terminals',
+        loc_other: 'Other Location / Corporate HQ',
+        conf_title: 'Inquiry Received Successfully!',
+        footer_about: 'A premier provider of integrated oilfield services, industrial supply, heavy field logistics, and engineering maintenance across Libya and the region.',
+        footer_links_t: 'Quick Links',
+        footer_srv_t: 'Service Sectors',
+        footer_copy: '© 2026 Hadabatal-Rimal Al-Mutajadida for Oilfield Services. All Rights Reserved.',
+        modal_scope_title: 'Technical Scope & Capabilities:',
+        modal_close: 'Close',
+        modal_request: 'Request Quote for This Service',
+        card_more: 'Technical Details'
+      }
+    };
+
+    function renderServices() {
+      const grid = document.getElementById('servicesGrid');
+      const filtered = activeFilter === 'all' 
+        ? servicesData 
+        : servicesData.filter(s => s.category === activeFilter);
+
+      grid.innerHTML = filtered.map(srv => {
+        const content = srv[currentLang];
+        const moreLabel = translations[currentLang].card_more;
+        const arrowIcon = currentLang === 'ar' ? 'fa-arrow-left' : 'fa-arrow-right';
+        return `
+          <div class="group bg-white rounded-3xl p-7 border border-slate-200/90 shadow-sm hover:shadow-luxury hover:border-sandgold-400 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <div class="w-14 h-14 rounded-2xl bg-petroleum-900 group-hover:bg-sandgold-500 text-sandgold-400 group-hover:text-white flex items-center justify-center text-2xl transition-colors duration-300 shadow-sm">
+                  <i class="fa-solid ${srv.icon}"></i>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-warmbg text-sandgold-700 font-bold text-xs border border-sandgold-500/20">
+                  ${content.catLabel}
+                </span>
+              </div>
+              <h3 class="text-xl font-extrabold text-petroleum-900 mb-3 group-hover:text-sandgold-600 transition">
+                ${content.title}
+              </h3>
+              <p class="text-sm text-slate-600 leading-relaxed mb-6">
+                ${content.short}
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <button onclick="openServiceModal('${srv.id}')" class="inline-flex items-center gap-2 font-extrabold text-sm text-petroleum-900 group-hover:text-sandgold-600 transition cursor-pointer">
+                <span>${moreLabel}</span>
+                <i class="fa-solid ${arrowIcon} text-xs transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1"></i>
+              </button>
+              <a href="#contact" onclick="preselectService('${srv.id}')" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-sandgold-500 text-petroleum-800 hover:text-white flex items-center justify-center transition" title="${translations[currentLang].nav_cta}">
+                <i class="fa-solid fa-file-signature text-xs"></i>
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function filterServices(cat) {
+      activeFilter = cat;
+      document.querySelectorAll('.service-filter-btn').forEach(btn => {
+        if (btn.dataset.filter === cat) {
+          btn.classList.remove('bg-slate-100', 'text-petroleum-800', 'hover:bg-slate-200');
+          btn.classList.add('bg-petroleum-900', 'text-white', 'shadow-sm');
+        } else {
+          btn.classList.add('bg-slate-100', 'text-petroleum-800', 'hover:bg-slate-200');
+          btn.classList.remove('bg-petroleum-900', 'text-white', 'shadow-sm');
+        }
+      });
+      renderServices();
+    }
+
+    function openServiceModal(id) {
+      selectedModalServiceId = id;
+      const srv = servicesData.find(s => s.id === id);
+      if (!srv) return;
+      const content = srv[currentLang];
+
+      document.getElementById('modalIcon').innerHTML = `<i class="fa-solid ${srv.icon}"></i>`;
+      document.getElementById('modalCategory').textContent = content.catLabel;
+      document.getElementById('modalTitle').textContent = content.title;
+      document.getElementById('modalDesc').textContent = content.full;
+      document.getElementById('modalBullets').innerHTML = content.bullets.map(b => `
+        <li class="flex items-start gap-2.5">
+          <i class="fa-solid fa-circle-check text-sandgold-500 mt-1 shrink-0"></i>
+          <span>${b}</span>
+        </li>
+      `).join('');
+
+      const modal = document.getElementById('serviceModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeServiceModal() {
+      const modal = document.getElementById('serviceModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function selectServiceInForm() {
+      preselectService(selectedModalServiceId);
+      closeServiceModal();
+    }
+
+    function preselectService(id) {
+      const select = document.getElementById('serviceCategory');
+      if (select) select.value = id;
+    }
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'ar' ? 'en' : 'ar';
+      const html = document.documentElement;
+      html.setAttribute('lang', currentLang);
+      html.setAttribute('dir', currentLang === 'ar' ? 'rtl' : 'ltr');
+
+      document.getElementById('langLabel').textContent = currentLang === 'ar' ? 'English' : 'العربية';
+      document.getElementById('langLabelMobile').textContent = currentLang === 'ar' ? 'EN' : 'عربي';
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[currentLang][key]) {
+          el.innerHTML = translations[currentLang][key];
+        }
+      });
+
+      renderServices();
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+
+    function closeMobileMenu() {
+      document.getElementById('mobileMenu').classList.add('hidden');
+    }
+
+    function handleQuoteSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('senderName').value.trim();
+      const company = document.getElementById('companyName').value.trim();
+      const serviceSelect = document.getElementById('serviceCategory');
+      const serviceText = serviceSelect.options[serviceSelect.selectedIndex].text;
+
+      const randomNum = Math.floor(1000 + Math.random() * 9000);
+      document.getElementById('refNumber').textContent = `HR-2026-${randomNum}`;
+
+      const summary = currentLang === 'ar'
+        ? `شكراً لكم ${name} (${company}). تم تسجيل استفساركم بخصوص "${serviceText}" وإحالته إلى قسم العقود والمناقصات.`
+        : `Thank you ${name} (${company}). Your inquiry regarding "${serviceText}" has been logged and assigned to our Tenders & Engineering Department.`;
+
+      document.getElementById('confSummaryText').textContent = summary;
+      document.getElementById('quoteConfirmation').classList.remove('hidden');
+      e.target.reset();
+    }
+
+    // Close modal when clicking outside dialog
+    document.getElementById('serviceModal').addEventListener('click', function(e) {
+      if (e.target === this) closeServiceModal();
+    });
+
+    // Initialize services on load
+    window.addEventListener('DOMContentLoaded', () => {
+      renderServices();
+    });
+  </script>
+</body>
+</html>
